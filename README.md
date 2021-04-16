@@ -14,15 +14,25 @@ Systematization is based on observation that it is possible to formulate generic
 These approaches have been formulated as **Strategies of Computational Process Synthesis (SCPS)**. Preliminary version of the catalogue was published in previous works [1, 2].
 
 SCPS formulations:
+
 * **relaxation** – decoupling, removing the interlocks between computational requests to facilitate their concurrent execution. Contains four subcategories:
+
 	* **overlapping** – decoupling of initiation of new request processing with completion of previous requests;
+
 	* **distribution** – partitioning of computational task in loosely dependent parts;
+
 	* **reordering** – changeability of computational requests prioritization, forwarded/deferred execution;
+
 	* **speculation** – performing (possibly redundant) computations in advance in the interest of latency reduction;
+
 * **coalescing** – increasing granularity of computational workload elements to decrease management overhead;
+
 * **compression** – detection and removal of redundant computations;
+
 * **resorting** – re-grouping computational process elements in unified or specialized categories based on their functional and non-functional properties that affect their execution;
+
 * **reconfiguration** – introduction of changeability of system parameters and internal mechanisms, allocation of common “hard” substrate for diverse “soft” execution entities;
+
 * **virtualization** – allocation of new management overlays that selectively abstract chosen mechanisms for their interoperable application.
 
 Performance optimization mechanisms:
