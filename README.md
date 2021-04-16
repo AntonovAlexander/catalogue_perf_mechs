@@ -119,9 +119,9 @@ Computer architecture levels | Resorting
 System software (web middleware) | Internet media types
 System software (graphics) | Shader types
 System software (DBMS) | Query prioritization
-System software (OS) | Asymmetric multiprocessing, priority classes, privilege levels
+System software (OS) | Asymmetric multiprocessing environments, priority classes, privilege levels
 System software (compilers and runtimes) | Task partitioning for heterogeneous platforms, instruction replacement, (un)likely attributes
-Processor architecture | ISA extensions, asymmetric multiprocessing, interrupt priority levels, cache partitioning
+Processor architecture | ISA extensions, asymmetric multiprocessors, interrupt priority levels, cache partitioning
 Hardware microarchitecture (processing) | Pipeline stages, heterogeneous pipelines and functional units
 Hardware microarchitecture (communication) | Heterogeneous networks, QoS traffic classes
 Hardware microarchitecture (memory) | Memory hierarchy, NUMA
