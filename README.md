@@ -14,6 +14,8 @@ Systematization is based on observation that it is possible to formulate generic
 
 These approaches have been formulated as **Strategies of Computational Process Synthesis (SCPS)**. Preliminary version of the catalogue was published in previous works [1, 2].
 
+![pic_test](img/strategies_en.png)
+
 SCPS formulations:
 
 * **relaxation** – decoupling, removing the interlocks between computational requests to facilitate their concurrent execution. Contains four subcategories:
