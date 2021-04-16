@@ -4,11 +4,11 @@
 
 This repo is a systematized catalogue of performance optimization mechanisms implemented on various levels of computer architecture.
 
-Systematization is based on observation that it is possible to formulate generic approaches to optimizations that are agnostic to:
+Systematization is based on observation that it is possible to formulate generic optimization approaches that are agnostic to:
 * HW/SW implementation (hardware- or software-only, mixed manner),
 * nature of management engine (processor microarchitecture, OS kernel, software compiler, hardware synthesizer/generator, etc.),
 * type of computational process elements (computational, communication, memory operations),
-* data being processed (data bytes, network packets, graphics assets, etc.),
+* data being processed (data bytes, network packets, graphic assets, etc.),
 * stage of the system life cycle (both statically and dynamically),
 * degree of automation (manually, fully automatically, and everything in between).
 
@@ -18,19 +18,19 @@ These approaches have been formulated as **Strategies of Computational Process S
 
 SCPS formulations:
 
-* **relaxation** – decoupling, removing the interlocks between computational requests to facilitate their concurrent execution. Contains four subcategories:
+* **relaxation** – decoupling, removing the interlocks between requests to facilitate their concurrent execution. Contains four subcategories:
 	* **overlapping** – decoupling of initiation of new request processing with completion of previous requests;
-	* **distribution** – partitioning of computational task in loosely dependent parts;
-	* **reordering** – changeability of computational requests prioritization, forwarded/deferred execution;
+	* **distribution** – partitioning of workload in loosely dependent parts;
+	* **reordering** – changeability of requests prioritization, forwarded/deferred execution;
 	* **speculation** – performing (possibly redundant) computations in advance in the interest of latency reduction;
 
-* **coalescing** – increasing granularity of computational workload elements to decrease management overhead;
+* **coalescing** – increasing granularity of workload elements to decrease management overhead;
 
 * **compression** – detection and removal of redundant computations;
 
-* **resorting** – re-grouping computational process elements in unified or specialized categories based on their functional and non-functional properties that affect their execution;
+* **resorting** – re-grouping workload elements in unified or specialized categories based on their functional and non-functional properties that affect their execution;
 
-* **reconfiguration** – introduction of changeability of system parameters and internal mechanisms, allocation of common “hard” substrate for diverse “soft” execution entities;
+* **reconfiguration** – introduction of changeability of system parameters and internal mechanisms, allocation of common “hard” substrate for diverse “soft” workload elements;
 
 * **virtualization** – allocation of new management overlays that selectively abstract chosen mechanisms for their interoperable application.
 
@@ -93,8 +93,8 @@ Computer architecture levels | Coalescing
 System software (web middleware) | HTTP requests merging, media content buffering
 System software (graphics) | GPU thread coarsening
 System software (DBMS) | Data clustering
-System software (OS) | Increased OS scheduling time quantum, I/O requests coalescing, batch processing, scatter/gather I/O, heap/file defragmentation
-System software (compilers and runtimes) | Instruction combining, loop fusion
+System software (OS) | Increased OS scheduling time quantum, I/O requests coalescing, batch processing, scatter/gather I/O, file defragmentation
+System software (compilers and runtimes) | Instruction combining, loop fusion, heap defragmentation
 Processor architecture | CPU clustering, SIMD, VLIW architectures, FMA instructions, interrupt coalescing
 Hardware microarchitecture (processing) | Instruction fusion
 Hardware microarchitecture (communication) | Enlarged packets, burst transfers
@@ -121,7 +121,7 @@ System software (graphics) | Shader types
 System software (DBMS) | Query prioritization
 System software (OS) | Asymmetric multiprocessing, priority classes, privilege levels
 System software (compilers and runtimes) | Task partitioning for heterogeneous platforms, instruction replacement, (un)likely attributes
-Processor architecture | Asymmetric processor configurations, interrupt priority levels, cache partitioning
+Processor architecture | ISA extensions, asymmetric multiprocessing, interrupt priority levels, cache partitioning
 Hardware microarchitecture (processing) | Pipeline stages, heterogeneous pipelines and functional units
 Hardware microarchitecture (communication) | Heterogeneous networks, QoS traffic classes
 Hardware microarchitecture (memory) | Memory hierarchy, NUMA
@@ -143,7 +143,7 @@ Digital circuitry | FPGA LUTs, DVFS, reconfigurable macro blocks, back-annotated
 Computer architecture levels | Virtualization
 ---------------------------- | --------------
 System software (web middleware) | Application protocols, cloud services
-System software (graphics) | Common graphics APIs, unified shader model
+System software (graphics) | Standardized graphics APIs, unified shader model
 System software (DBMS) | Database virtualization, common query languages
 System software (OS) | OS containers, platform emulation
 System software (compilers and runtimes) | Managed programming environments, multi-stage compilation
