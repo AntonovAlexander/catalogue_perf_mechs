@@ -7,7 +7,7 @@ This repo is a systematized catalogue of performance optimization mechanisms imp
 Systematization is based on observation that it is possible to formulate generic optimization approaches that are agnostic to:
 * HW/SW implementation (hardware- or software-only, mixed manner),
 * nature of management engine (processor microarchitecture, OS kernel, software compiler, hardware synthesizer/generator, etc.),
-* type of computational process elements (computational, communication, memory operations),
+* type of computational process elements (computational, communicational, memory operations),
 * data being processed (data bytes, network packets, graphic assets, etc.),
 * stage of the system life cycle (both statically and dynamically),
 * degree of automation (manually, fully automatically, and everything in between).
@@ -18,7 +18,7 @@ These approaches have been formulated as **Strategies of Computational Process S
 
 SCPS formulations:
 
-* **relaxation** – decoupling, removing the interlocks between requests to facilitate their concurrent execution. Contains four subcategories:
+* **relaxation** – decoupling, removing the interlocks between requests. Contains four subcategories:
 	* **overlapping** – decoupling of initiation of new request processing with completion of previous requests;
 	* **distribution** – partitioning of workload in loosely dependent parts;
 	* **reordering** – changeability of requests prioritization, forwarded/deferred execution;
