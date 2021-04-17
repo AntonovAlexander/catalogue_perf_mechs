@@ -24,7 +24,7 @@ SCPS formulations:
 	* **reordering** – changeability of requests prioritization, forwarded/deferred execution;
 	* **speculation** – performing (possibly redundant) computations in advance in the interest of latency reduction;
 
-* **compression** – reduction of workload processing cost
+* **compression** – reduction of workload processing cost. Contains two subcategories:
 	* **coalescing** – increasing granularity of workload elements to decrease management overhead;
 	* **elimination** – detection and removal of redundant computations;
 
