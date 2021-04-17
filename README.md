@@ -40,7 +40,7 @@ Computer architecture levels | Relaxation (overlapping)
 System software (web middleware) | Asynchronous web services, event loop (non-blocking I/O)
 System software (graphics) | Pipelined rendering
 System software (DBMS) | Concurrency control protocols, DSMSs
-System software (OS, drivers) | OS pipes, OS multitasking, spooling, asynchronous I/O
+System software (OS, drivers) | OS pipes, OS multitasking, spooling, asynchronous I/O, ping-pong (double) buffering
 System software (compilers and runtimes) | Software pipelining, asynchronous programming environments
 Processor architecture | Delay slots, software-based pipeline hazard resolution, rotating register files
 Hardware microarchitecture (processing) | Pipelined processing of instructions
@@ -121,10 +121,10 @@ System software (DBMS) | Query prioritization
 System software (OS, drivers) | Asymmetric multiprocessing environments, priority classes, privilege levels
 System software (compilers and runtimes) | Task partitioning for heterogeneous platforms, instruction replacement, (un)likely attributes
 Processor architecture | ISA extensions, asymmetric multiprocessors, interrupt priority levels, cache partitioning
-Hardware microarchitecture (processing) | Pipeline stages, heterogeneous pipelines and functional units
+Hardware microarchitecture (processing) | Diverse microarchitectural templates, execution units, and pipeline stages
 Hardware microarchitecture (communication) | Heterogeneous networks, QoS traffic classes
 Hardware microarchitecture (memory) | Memory hierarchy, NUMA
-Digital circuitry | FPGA hard macro blocks, clock/data networks
+Digital circuitry | Diverse device implementations, FPGA hard macro blocks, clock/data networks
 
 Computer architecture levels | Variation (reconfiguration)
 ---------------------------- | ---------------------------
@@ -147,7 +147,7 @@ System software (DBMS) | Database virtualization, common query languages
 System software (OS, drivers) | OS containers, platform emulation
 System software (compilers and runtimes) | Managed programming environments, multi-stage compilation
 Processor architecture | Hardware CPU virtualization, FPGA temporal partitioning, virtual forwarding/routing, virtual memory
-Hardware microarchitecture (processing) | Dynamic binary translation, composed multicores, thread warping
+Hardware microarchitecture (processing) | Dynamic binary translation, composed multicores, dynamic synthesis of thread accelerators (thread warping)
 Hardware microarchitecture (communication) | Virtual channels, multi-layer protocols, link auto-training, cognitive radio
 Hardware microarchitecture (memory) | Hardware cache hierarchy management
 Digital circuitry | Logic simulation, programmable logic
