@@ -106,7 +106,7 @@ System software (web middleware) | HTTP compression, web media compression
 System software (graphics) | Polygon clipping/culling, LODing, texture compression, tiled rendering
 System software (DBMS) | Data indexing, denormalization, recycling of intermediate results
 System software (OS, drivers) | Context switch minimization, zero-copy data transfers, file compression, memory balooning
-System software (compilers and runtimes) | Constant folding/propagation, dead code elimination, computation reuse, register recycling/reuse, common subexpression elimination, register promotion, strength reduction, floating- to fixed-point conversion, neural network pruning/quantization
+System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, dead code elimination, common subexpression elimination, strength reduction, computation reuse, garbage collection, neural network pruning/quantization
 Processor architecture | Compressed (with increased code density) ISA
 Hardware microarchitecture (processing) | Dynamic instruction reuse, interrupt tail-chaining
 Hardware microarchitecture (communication) | NoC traffic compression
