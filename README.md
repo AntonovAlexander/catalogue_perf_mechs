@@ -7,7 +7,7 @@ This repo is a systematized catalogue of performance optimization mechanisms imp
 Systematization is based on observation that it is possible to formulate generic optimization approaches that are agnostic to:
 * HW/SW implementation (hardware- or software-only, mixed manner),
 * nature of management engine (processor microarchitecture, OS kernel, software compiler, hardware synthesizer/generator, etc.),
-* type of computational process elements (computational, communicational, memory operations),
+* type of computational traffic elements (processing, communications, memory operations),
 * data being processed (data bytes, network packets, graphic assets, etc.),
 * stage of the system life cycle (both statically and dynamically),
 * degree of automation (manually, fully automatically, and everything in between).
@@ -103,7 +103,7 @@ Digital circuitry | Wide functional units, operation clustering (chaining) in HL
 Computer architecture levels | Compression (elimination)
 ---------------------------- | -------------------------
 System software (web middleware) | HTTP compression, web media compression
-System software (graphics) | Polygon clipping/culling, LODing, texture compression, tiled rendering
+System software (graphics) | Viewing frustum, levels of detail, polygon clipping, occlusion culling, texture compression, tiled rendering
 System software (DBMS) | Data indexing, denormalization, recycling of intermediate results
 System software (OS, drivers) | Context switch minimization, zero-copy data transfers, file compression, memory balooning
 System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, dead code elimination, common subexpression elimination, strength reduction, computation reuse, garbage collection, neural network pruning/quantization
