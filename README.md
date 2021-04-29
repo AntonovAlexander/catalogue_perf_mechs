@@ -116,7 +116,7 @@ Digital circuitry | Bitwidth narrowing, register merging, logic minimization, de
 Computer architecture levels | Variation (diversification)
 ---------------------------- | ---------------------------
 System software (web middleware) | Internet media types
-System software (graphics) | Shader types
+System software (graphics) | Shader types, variable rate shading
 System software (DBMS) | Query prioritization
 System software (OS, drivers) | Asymmetric multiprocessing environments, priority classes, privilege levels
 System software (compilers and runtimes) | Task partitioning for heterogeneous platforms, instruction replacement, (un)likely attributes
@@ -124,7 +124,7 @@ Processor architecture | ISA extensions, asymmetric multiprocessors, interrupt p
 Hardware microarchitecture (processing) | Diverse microarchitectural templates, execution units, and pipeline stages
 Hardware microarchitecture (communication) | Heterogeneous networks, QoS traffic classes
 Hardware microarchitecture (memory) | Memory hierarchy, NUMA
-Digital circuitry | Diverse device implementations, FPGA hard macro blocks, clock/data networks
+Digital circuitry | High performance and low power process technologies, variably optimized (e.g. for speed/leakage) standard cells, clock/data networks, FPGA hard macro blocks
 
 Computer architecture levels | Variation (reconfiguration)
 ---------------------------- | ---------------------------
