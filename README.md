@@ -41,8 +41,8 @@ System software (web middleware) | Asynchronous web services, event loop (non-bl
 System software (graphics) | Pipelined rendering
 System software (DBMS) | Concurrency control protocols, DSMSs
 System software (OS, drivers) | OS pipes, OS multitasking, spooling, asynchronous I/O, ping-pong (double) buffering
-System software (compilers and runtimes) | Software pipelining, asynchronous programming environments
-Processor architecture | Delay slots, software-based pipeline hazard resolution, rotating register files
+System software (compilers and runtimes) | Software pipelining, asynchronous programming environments, lock-free data structures and programming
+Processor architecture | Delay slots, software-based pipeline hazard resolution, rotating register files, lock-free synchronization instructions
 Hardware microarchitecture (processing) | Pipelined processing of instructions
 Hardware microarchitecture (communication) | Pipelined packet processing, split transaction protocols, sliding window flow control, wormhole switching/routing
 Hardware microarchitecture (memory) | Memory pipelining, register renaming, non-blocking caches, hardware buffering/queuing
@@ -135,7 +135,7 @@ System software (OS, drivers) | Microkernel architecture, process priorities rec
 System software (compilers and runtimes) | Neural network learning, compiler optimization flags
 Processor architecture | Processors’ programmability, switchable ISAs, modes of execution, customizable memory models
 Hardware microarchitecture (processing) | Microprogrammable processors, CGRAs, conservation cores, branch predictor adaptation
-Hardware microarchitecture (communication) | Reconfigurable NoC topologies, software-defined networking
+Hardware microarchitecture (communication) | Reconfigurable QoS, reconfigurable NoC topologies, software-defined networking
 Hardware microarchitecture (memory) | Cache mapping adaptation
 Digital circuitry | FPGA LUTs, DVFS, reconfigurable macro blocks, back-annotated synthesis, synthesis/implementation constraints
 
