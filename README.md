@@ -42,10 +42,10 @@ System software (graphics) | Pipelined rendering
 System software (DBMS) | Concurrency control protocols, DSMSs
 System software (OS, drivers) | OS pipes, OS multitasking, spooling, asynchronous I/O, ping-pong (double) buffering
 System software (compilers and runtimes) | Software pipelining, asynchronous programming environments, lock-free data structures and programming
-Processor architecture | Delay slots, software-based pipeline hazard resolution, rotating register files, lock-free synchronization instructions
+Processor architecture | Delay slots, software-based pipeline hazard resolution, rotating register files, software register renaming, lock-free synchronization instructions
 Hardware microarchitecture (processing) | Pipelined processing of instructions
 Hardware microarchitecture (communication) | Pipelined packet processing, split transaction protocols, sliding window flow control, wormhole switching/routing
-Hardware microarchitecture (memory) | Memory pipelining, register renaming, non-blocking caches, hardware buffering/queuing
+Hardware microarchitecture (memory) | Memory pipelining, hardware register renaming, non-blocking caches, hardware buffering/queuing
 Digital circuitry | Synchronous pipelines, wave pipelines
 
 Computer architecture levels | Relaxation (distribution)
@@ -96,7 +96,7 @@ System software (OS, drivers) | Increased OS scheduling time quantum, I/O reques
 System software (compilers and runtimes) | Instruction combining, loop fusion, heap defragmentation
 Processor architecture | CPU clustering, SIMD, VLIW architectures, FMA instructions, interrupt coalescing
 Hardware microarchitecture (processing) | Instruction fusion
-Hardware microarchitecture (communication) | Enlarged packets, burst transfers
+Hardware microarchitecture (communication) | Enlarged packets (e.g. jumbo frames), burst transfers
 Hardware microarchitecture (memory) | Memory requests coalescing
 Digital circuitry | Wide functional units, operation clustering (chaining) in HLS, high number input LUT in FPGAs
 
@@ -106,7 +106,7 @@ System software (web middleware) | HTTP compression, web media compression
 System software (graphics) | Viewing frustum, levels of detail, polygon clipping, occlusion culling, texture compression, tiled rendering
 System software (DBMS) | Data indexing, denormalization, recycling of intermediate results
 System software (OS, drivers) | Context switch minimization, zero-copy data transfers, file compression, memory balooning
-System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, dead code elimination, common subexpression elimination, strength reduction, computation reuse, garbage collection, neural network pruning/quantization
+System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, dead code elimination, common subexpression elimination, strength reduction, computation reuse, memoization, garbage collection, neural network pruning/quantization
 Processor architecture | Compressed (with increased code density) ISA
 Hardware microarchitecture (processing) | Dynamic instruction reuse, interrupt tail-chaining
 Hardware microarchitecture (communication) | NoC traffic compression
