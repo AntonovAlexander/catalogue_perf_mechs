@@ -39,7 +39,7 @@ Computer architecture levels | Relaxation (overlapping)
 ---------------------------- | ------------------------
 System software (web middleware) | Asynchronous web services, event loop (non-blocking I/O)
 System software (graphics) | Pipelined rendering
-System software (DBMS) | Concurrency control protocols, DSMSs
+System software (DBMS) | Concurrency control protocols, data streams processing
 System software (OS, drivers) | OS pipes, OS multitasking, spooling, asynchronous I/O, ping-pong (double) buffering
 System software (compilers and runtimes) | Software pipelining, asynchronous programming environments, lock-free data structures and programming
 Processor architecture | Delay slots, software-based pipeline hazard resolution, rotating register files, software register renaming, lock-free synchronization instructions
@@ -57,7 +57,7 @@ System software (OS, drivers) | OS multithreading
 System software (compilers and runtimes) | Parallel programming environments, work sharing/stealing, coroutines, static parallelization, loop fission
 Processor architecture | Multi/many-core architectures, simultaneous multithreading, multi-channel DMA
 Hardware microarchitecture (processing) | Superscalar processing of instructions
-Hardware microarchitecture (communication) | Parallel slave arbitration, parallel links, dense topologies, distributed NoC routing
+Hardware microarchitecture (communication) | Parallel links, concurrent slaves arbitration, dense topologies, distributed NoC routing
 Hardware microarchitecture (memory) | Multiporting, multibank partitioning, coherent caches
 Digital circuitry | Application mapping on multiple hardware resources in HLS, logic replication
 
