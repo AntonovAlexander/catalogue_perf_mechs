@@ -90,7 +90,7 @@ Digital circuitry | Multiplexing multiple pre-computed results
 Computer architecture levels | Compression (coalescing)
 ---------------------------- | ------------------------
 System software (web middleware) | HTTP requests merging, media content buffering
-System software (graphics) | GPU thread coarsening
+System software (graphics) | GPU thread coarsening, sparse textures
 System software (DBMS) | Data clustering
 System software (OS, drivers) | Increased OS scheduling time quantum, I/O requests coalescing, batch processing, scatter/gather I/O, file defragmentation
 System software (compilers and runtimes) | Instruction combining, loop fusion, heap defragmentation
@@ -156,4 +156,4 @@ Digital circuitry | Logic simulation, programmable logic
 
 * A. Antonov, “Methods and Tools for Computer-Aided Synthesis of Processors Based on Microarchitectural Programmable Hardware Generators,” Ph.D dissertation, ITMO University, Saint-Petersburg, 28.12.2018. URL: http://fppo.ifmo.ru/dissertation/?number=63419
 
-* A. Antonov, P. Kustarev, “Strategies of Computational Process Synthesis – a System-Level Model of HW/SW (Micro)Architectural Mechanisms,” in 2020 9th Mediterranean Conference on Embedded Computing (MECO), 2020. URL: https://ieeexplore.ieee.org/document/9134071 Preprint downloadable from: http://programme.meconet.me/documents/PAPERS/MECO_2020_paper_26.pdf
+* A. Antonov, P. Kustarev, “Strategies of Computational Process Synthesis – a System-Level Model of HW/SW (Micro)Architectural Mechanisms,” in 2020 9th Mediterranean Conference on Embedded Computing (MECO), 2020. URL: https://ieeexplore.ieee.org/document/9134071
