@@ -67,7 +67,7 @@ System software (web middleware) | Lazy connections/loading
 System software (graphics) | Mesh vertices reordering, out-of-order rasterization, forwarded/deferred rendering
 System software (DBMS) | Prioritized resource scheduling, query reordering
 System software (OS, VMs, drivers) | Thread priority scheduling, I/O requests sorting
-System software (compilers and runtimes) | Lazy evaluation, code motion optimizations, loop unrolling, loop tiling
+System software (compilers and runtimes) | Lazy evaluation, code motion optimizations, loop tiling, loop interchange
 Processor architecture | Dataflow architectures, relaxed memory models
 Hardware microarchitecture (processing) | Out-of-order processing of instructions, Tomasulo scheduling algorithm
 Hardware microarchitecture (communication) | Out-of-order completion of transfers
@@ -93,7 +93,7 @@ System software (web middleware) | HTTP requests merging, media content bufferin
 System software (graphics) | GPU thread coarsening, sparse textures
 System software (DBMS) | Data clustering
 System software (OS, VMs, drivers) | VM proximity placement groups, increased OS scheduling time quantum, I/O requests coalescing, batch processing, scatter/gather I/O, file defragmentation
-System software (compilers and runtimes) | Instruction combining, loop fusion, heap defragmentation
+System software (compilers and runtimes) | Instruction combining, loop unrolling, loop fusion, heap defragmentation
 Processor architecture | CPU clustering, SIMD, VLIW architectures, FMA instructions, interrupt coalescing
 Hardware microarchitecture (processing) | Instruction fusion
 Hardware microarchitecture (communication) | Enlarged packets (e.g. jumbo frames), burst transfers
@@ -106,7 +106,7 @@ System software (web middleware) | HTTP compression, web media compression
 System software (graphics) | Viewing frustum, levels of detail, polygon clipping, occlusion culling, texture compression, tiled rendering
 System software (DBMS) | Data indexing, denormalization, recycling of intermediate results
 System software (OS, VMs, drivers) | Context switch minimization, zero-copy data transfers, file compression, memory balooning
-System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, dead code elimination, common subexpression elimination, strength reduction, computation reuse, memoization, garbage collection, neural network pruning/quantization
+System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, structure packing, dead code elimination, common subexpression elimination, strength reduction, computation reuse, memoization, garbage collection, neural network pruning/quantization
 Processor architecture | Compressed (with increased code density) ISA
 Hardware microarchitecture (processing) | Dynamic instruction reuse, interrupt tail-chaining
 Hardware microarchitecture (communication) | Sparse NoC topologies, NoC traffic compression
