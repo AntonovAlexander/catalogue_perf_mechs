@@ -2,7 +2,7 @@
 
 ### Description
 
-This repo is a systematized catalogue of performance optimization mechanisms implemented on various levels of computer architecture.
+This repo is a systematized live catalogue of performance optimization mechanisms implemented on various levels of computer architecture.
 
 Systematization is based on observation that it is possible to formulate generic optimization approaches that are agnostic to:
 * HW/SW implementation (hardware- or software-only, mixed manner),
@@ -141,7 +141,7 @@ Digital circuitry | FPGA LUTs, DVFS, reconfigurable macro blocks, back-annotated
 
 Computer architecture levels | Variation (virtualization)
 ---------------------------- | --------------------------
-System software (web middleware) | Application protocols, cloud services
+System software (web middleware) | OSI multi-layer model, WebAssembly, cloud services
 System software (graphics) | Standardized graphics APIs, unified shader model
 System software (DBMS) | Database virtualization, common query languages
 System software (OS, VMs, drivers) | OS containers, platform emulation
