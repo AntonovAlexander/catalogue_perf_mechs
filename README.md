@@ -12,6 +12,8 @@ Systematization is based on observation that it is possible to formulate generic
 * stage of the system life cycle (both statically and dynamically),
 * degree of automation (manually, fully automatically, and everything in between).
 
+In general sense, these approaches provide potential directions for improving density, regularity of computations, their scaling, decongestion, and adapting them to given physical and/or platform capabilities and constraints.
+
 These approaches have been formulated as **Strategies of Computational Process Synthesis (SCPS)**. Preliminary version of the catalogue was published in previous works [1, 2].
 
 ![pic_test](img/strategies_en.png)
@@ -92,7 +94,7 @@ Computer architecture levels | Compression (coalescing)
 System software (web middleware) | HTTP requests merging, media content buffering
 System software (graphics) | GPU thread coarsening, sparse textures
 System software (DBMS) | Data clustering
-System software (OS, VMs, drivers) | VM proximity placement groups, increased OS scheduling time quantum, I/O requests coalescing, batch processing, scatter/gather I/O, file defragmentation
+System software (OS, VMs, drivers) | VM proximity placement groups, increased OS scheduling time quantum, I/O requests coalescing, batch processing, slab allocation, scatter/gather I/O, file defragmentation
 System software (compilers and runtimes) | Instruction combining, loop unrolling, loop fusion, heap defragmentation
 Processor architecture | CPU clustering, SIMD, VLIW architectures, FMA instructions, interrupt coalescing
 Hardware microarchitecture (processing) | Instruction fusion
