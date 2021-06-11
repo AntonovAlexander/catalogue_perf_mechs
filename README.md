@@ -91,7 +91,7 @@ Digital circuitry | Multiplexing multiple pre-computed results
 
 Computer architecture levels | Compression (coalescing)
 ---------------------------- | ------------------------
-System software (web middleware) | HTTP requests merging, media content buffering
+System software (web middleware) | Web resource bundling, HTTP requests merging, media content buffering
 System software (graphics) | GPU thread coarsening, sparse textures
 System software (DBMS) | Data clustering
 System software (OS, VMs, drivers) | VM proximity placement groups, increased OS scheduling time quantum, I/O requests coalescing, batch processing, slab allocation, scatter/gather I/O, file defragmentation
