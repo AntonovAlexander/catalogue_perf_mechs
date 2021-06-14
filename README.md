@@ -52,7 +52,7 @@ Digital circuitry | Synchronous pipelines, wave pipelines
 
 Computer architecture levels | Relaxation (distribution)
 ---------------------------- | -------------------------
-System software (web middleware) | Multi-server setups, parallel HTTP requests, content delivery networks, MapReduce model
+System software (web middleware) | Multi-server setups, parallel HTTP requests, content delivery networks, MapReduce model, segmented file transfer
 System software (graphics) | Space partitioning, mesh decomposition
 System software (DBMS) | Database partitioning, replication/sharding
 System software (OS, VMs, drivers) | OS multithreading
@@ -71,7 +71,7 @@ System software (DBMS) | Prioritized resource scheduling, query reordering
 System software (OS, VMs, drivers) | Thread priority scheduling, I/O requests sorting
 System software (compilers and runtimes) | Lazy evaluation, code motion optimizations, loop tiling, loop interchange
 Processor architecture | Dataflow architectures, relaxed memory models
-Hardware microarchitecture (processing) | Out-of-order processing of instructions, Tomasulo scheduling algorithm
+Hardware microarchitecture (processing) | Out-of-order processing of instructions, scoreboarding/Tomasulo scheduling algorithm
 Hardware microarchitecture (communication) | Out-of-order completion of transfers
 Hardware microarchitecture (memory) | Deferred store buffers
 Digital circuitry | Operations reordering in HLS, retiming in logic synthesis
