@@ -12,7 +12,7 @@ Systematization is based on observation that it is possible to formulate generic
 * stage of the system life cycle (both statically and dynamically),
 * degree of automation (manually, fully automatically, and everything in between).
 
-In general sense, these approaches provide potential directions for improving density, regularity of computations, their scaling, decongestion, and adapting them to given physical and/or platform capabilities and constraints.
+In general sense, these approaches provide potential directions for improving density, regularity of computations, their scaling, decongestion, and adapting them to given physical and/or platform capabilities and constraints. (Micro)Architectures are understood mostly as practical compositions of these approaches.
 
 These approaches have been formulated as **Strategies of Computational Process Synthesis (SCPS)**. Preliminary version of the catalogue was published in previous works [1, 2].
 
@@ -39,11 +39,11 @@ Examples of performance optimization mechanisms grouped in SCPS categories:
 
 Classic computer architecture levels | Relaxation (overlapping)
 ---------------------------- | ------------------------
-Generic | Asynchronous processing, data/task queuing
+Generic | Asynchronous processing, ping-pong (double) buffering, data/task queuing
 System software (web middleware) | Asynchronous web services, event loop (non-blocking I/O)
 System software (graphics) | Pipelined rendering
 System software (DBMS) | Concurrency control protocols, data streams processing
-System software (OS, VMs, drivers) | OS pipes, OS multitasking, spooling, asynchronous I/O, ping-pong (double) buffering
+System software (OS, VMs, drivers) | OS pipes, OS multitasking, spooling, asynchronous I/O
 System software (compilers and runtimes) | Software pipelining, asynchronous programming environments, lock-free data structures and programming
 Processor architecture | Delay slots, software-based pipeline hazard resolution, rotating register files, software register renaming, lock-free synchronization instructions
 Hardware microarchitecture (processing) | Pipelined processing of instructions
@@ -53,7 +53,7 @@ Digital circuitry | Synchronous pipelines, wave pipelines
 
 Classic computer architecture levels | Relaxation (distribution)
 ---------------------------- | -------------------------
-Generic | Parallel processing
+Generic | Subtasks allocation
 System software (web middleware) | Multi-server setups, content delivery networks, MapReduce model, parallel HTTP requests, HTTP chunking, segmented file transfer
 System software (graphics) | Space partitioning, mesh decomposition
 System software (DBMS) | Database partitioning, replication/sharding
