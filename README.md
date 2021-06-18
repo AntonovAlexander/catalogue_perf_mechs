@@ -53,7 +53,7 @@ Digital circuitry | Synchronous pipelines, wave pipelines
 
 Classic computer architecture levels | Relaxation (distribution)
 ---------------------------- | -------------------------
-Generic | Subtasks allocation
+Generic | Data partitioning, subtasks allocation
 System software (web middleware) | Multi-server setups, content delivery networks, MapReduce model, parallel HTTP requests, HTTP chunking, segmented file transfer
 System software (graphics) | Space partitioning, mesh decomposition
 System software (DBMS) | Database partitioning, replication/sharding
@@ -109,7 +109,7 @@ Digital circuitry | Wide functional units, operation clustering (chaining) in HL
 
 Classic computer architecture levels | Compression (elimination)
 ---------------------------- | -------------------------
-Generic | Data compression, data indexing, object pooling
+Generic | Data compression, data indexing, data deduplication, object pooling
 System software (web middleware) | HTTP compression, web media compression
 System software (graphics) | Viewing frustum, levels of detail, polygon clipping, occlusion culling, texture compression, tiled rendering
 System software (DBMS) | Denormalization, recycling of intermediate results
