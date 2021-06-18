@@ -37,8 +37,9 @@ SCPS formulations:
 
 Examples of performance optimization mechanisms grouped in SCPS categories:
 
-Computer architecture levels | Relaxation (overlapping)
+Classic computer architecture levels | Relaxation (overlapping)
 ---------------------------- | ------------------------
+Generic | Asynchronous processing, data/task queuing
 System software (web middleware) | Asynchronous web services, event loop (non-blocking I/O)
 System software (graphics) | Pipelined rendering
 System software (DBMS) | Concurrency control protocols, data streams processing
@@ -47,12 +48,13 @@ System software (compilers and runtimes) | Software pipelining, asynchronous pro
 Processor architecture | Delay slots, software-based pipeline hazard resolution, rotating register files, software register renaming, lock-free synchronization instructions
 Hardware microarchitecture (processing) | Pipelined processing of instructions
 Hardware microarchitecture (communication) | Packet switching, split transaction protocols, sliding window flow control, pipelined packet routing, wormhole switching/routing
-Hardware microarchitecture (memory) | Memory pipelining, hardware register renaming, non-blocking caches, hardware buffering/queuing
+Hardware microarchitecture (memory) | Memory pipelining, hardware register renaming, non-blocking caches
 Digital circuitry | Synchronous pipelines, wave pipelines
 
-Computer architecture levels | Relaxation (distribution)
+Classic computer architecture levels | Relaxation (distribution)
 ---------------------------- | -------------------------
-System software (web middleware) | Multi-server setups, parallel HTTP requests, content delivery networks, MapReduce model, segmented file transfer
+Generic | Parallel processing
+System software (web middleware) | Multi-server setups, content delivery networks, MapReduce model, parallel HTTP requests, HTTP chunking, segmented file transfer
 System software (graphics) | Space partitioning, mesh decomposition
 System software (DBMS) | Database partitioning, replication/sharding
 System software (OS, VMs, drivers) | OS multithreading
@@ -63,8 +65,9 @@ Hardware microarchitecture (communication) | Parallel links, concurrent slaves a
 Hardware microarchitecture (memory) | Multiporting, multibank partitioning, coherent caches
 Digital circuitry | Application mapping on multiple hardware resources in HLS, logic replication
 
-Computer architecture levels | Relaxation (reordering)
+Classic computer architecture levels | Relaxation (reordering)
 ---------------------------- | -----------------------
+Generic | Lazy object initialization
 System software (web middleware) | Lazy connections/loading
 System software (graphics) | Mesh vertices reordering, out-of-order rasterization, forwarded/deferred rendering
 System software (DBMS) | Prioritized resource scheduling, query reordering
@@ -76,9 +79,10 @@ Hardware microarchitecture (communication) | Out-of-order completion of transfer
 Hardware microarchitecture (memory) | Deferred store buffers
 Digital circuitry | Operations reordering in HLS, retiming in logic synthesis
 
-Computer architecture levels | Relaxation (speculation)
+Classic computer architecture levels | Relaxation (speculation)
 ---------------------------- | ------------------------
-System software (web middleware) | Link prefetching, preloading, prebrowsing, web caching
+Generic | Data caching and prediction, speculative resource allocation
+System software (web middleware) | Link prefetching, preloading, prebrowsing, web/network caching
 System software (graphics) | Texture caching
 System software (DBMS) | Speculative query execution
 System software (OS, VMs, drivers) | Storage data prefetching
@@ -89,8 +93,9 @@ Hardware microarchitecture (communication) | Speculative propagation and stompin
 Hardware microarchitecture (memory) | Prefetching to data caches and stream buffers, locality in caching policies
 Digital circuitry | Multiplexing multiple pre-computed results
 
-Computer architecture levels | Compression (coalescing)
+Classic computer architecture levels | Compression (coalescing)
 ---------------------------- | ------------------------
+Generic | Data/task bundling, data buffering
 System software (web middleware) | Web resource bundling, HTTP requests merging, media content buffering
 System software (graphics) | GPU thread coarsening, sparse textures
 System software (DBMS) | Data clustering
@@ -102,11 +107,12 @@ Hardware microarchitecture (communication) | Enlarged packets (e.g. jumbo frames
 Hardware microarchitecture (memory) | Memory requests coalescing
 Digital circuitry | Wide functional units, operation clustering (chaining) in HLS, high number input LUT in FPGAs
 
-Computer architecture levels | Compression (elimination)
+Classic computer architecture levels | Compression (elimination)
 ---------------------------- | -------------------------
+Generic | Data compression, data indexing, object pooling
 System software (web middleware) | HTTP compression, web media compression
 System software (graphics) | Viewing frustum, levels of detail, polygon clipping, occlusion culling, texture compression, tiled rendering
-System software (DBMS) | Data indexing, denormalization, recycling of intermediate results
+System software (DBMS) | Denormalization, recycling of intermediate results
 System software (OS, VMs, drivers) | Context switch minimization, zero-copy data transfers, file compression, memory balooning
 System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, structure packing, dead code elimination, common subexpression elimination, strength reduction, computation reuse, memoization, garbage collection, neural network pruning/quantization
 Processor architecture | Compressed (with increased code density) ISA
@@ -115,8 +121,9 @@ Hardware microarchitecture (communication) | Sparse NoC topologies, NoC traffic 
 Hardware microarchitecture (memory) | Hardware data compression, caching exclusivity
 Digital circuitry | Bitwidth narrowing, register merging, logic minimization, dead/duplicated logic removal, redundant reset elimination, power/clock gating
 
-Computer architecture levels | Variation (diversification)
+Classic computer architecture levels | Variation (diversification)
 ---------------------------- | ---------------------------
+Generic | Diversity of traffic types, algorithms, and data structures
 System software (web middleware) | Internet media types
 System software (graphics) | Shader types, variable rate shading
 System software (DBMS) | Query prioritization
@@ -128,8 +135,9 @@ Hardware microarchitecture (communication) | Heterogeneous networks, QoS traffic
 Hardware microarchitecture (memory) | Memory hierarchy, NUMA
 Digital circuitry | High performance and low power process technologies, variably optimized (e.g. for speed/leakage) standard cells, clock/data networks, FPGA hard macro blocks
 
-Computer architecture levels | Variation (reconfiguration)
+Classic computer architecture levels | Variation (reconfiguration)
 ---------------------------- | ---------------------------
+Generic | Platform programmability/reconfigurability
 System software (web middleware) | Microservices continuous delivery
 System software (graphics) | Shader programmability
 System software (DBMS) | Performance tuning options
@@ -141,8 +149,9 @@ Hardware microarchitecture (communication) | Reconfigurable QoS, reconfigurable 
 Hardware microarchitecture (memory) | Cache mapping adaptation
 Digital circuitry | FPGA LUTs, DVFS, reconfigurable macro blocks, back-annotated synthesis, synthesis/implementation constraints
 
-Computer architecture levels | Variation (virtualization)
+Classic computer architecture levels | Variation (virtualization)
 ---------------------------- | --------------------------
+Generic | Multi-layer system architecture
 System software (web middleware) | OSI multi-layer model, WebAssembly, cloud services
 System software (graphics) | Standardized graphics APIs, unified shader model
 System software (DBMS) | Database virtualization, common query languages
