@@ -23,7 +23,7 @@ SCPS formulations:
 * **relaxation** – decoupling, removing the interlocks between requests. Contains four subcategories:
 	* **overlapping** – decoupling of initiation of new request processing with completion of previous requests;
 	* **distribution** – partitioning of workload in loosely dependent parts;
-	* **reordering** – changeability of requests prioritization, forwarded/deferred execution;
+	* **reordering** – relaxation of ordering constraints, forwarded/deferred execution;
 	* **speculation** – performing (possibly redundant) computations in advance in the interest of latency reduction;
 
 * **compression** – reduction of workload processing cost. Contains two subcategories:
@@ -157,7 +157,7 @@ System software (graphics) | Standardized graphics APIs, unified shader model
 System software (DBMS) | Database virtualization, common query languages
 System software (OS, VMs, drivers) | OS containers, platform emulation
 System software (compilers and runtimes) | Managed programming environments, multi-stage compilation
-Processor architecture | Hardware CPU virtualization, FPGA temporal partitioning, virtual forwarding/routing, virtual memory
+Processor architecture | CPU ISA/microarchitecture separation, hardware CPU virtualization, FPGA temporal partitioning, virtual forwarding/routing, virtual memory
 Hardware microarchitecture (processing) | Dynamic binary translation, composed multicores, dynamic synthesis of thread accelerators ("thread warping")
 Hardware microarchitecture (communication) | Virtual channels, multi-layer protocols, link auto-training, cognitive radio
 Hardware microarchitecture (memory) | Hardware cache hierarchy management
