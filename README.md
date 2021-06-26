@@ -59,7 +59,7 @@ System software (graphics) | Space partitioning, mesh decomposition
 System software (DBMS) | Database partitioning, replication/sharding
 System software (OS, VMs, drivers) | OS multithreading
 System software (compilers and runtimes) | Parallel programming environments, work sharing/stealing, coroutines, static parallelization, loop fission
-Processor architecture | Multi/many-core architectures, simultaneous multithreading, multi-channel DMA
+Processor architecture | Multi/many-core architectures, simultaneous multithreading, offload engines, multi-channel DMA
 Hardware microarchitecture (processing) | Superscalar processing of instructions
 Hardware microarchitecture (communication) | Parallel links, concurrent slaves arbitration, dense topologies, distributed NoC routing
 Hardware microarchitecture (memory) | Multiporting, multibank partitioning, coherent caches
@@ -131,7 +131,7 @@ System software (OS, VMs, drivers) | Asymmetric multiprocessing environments, pr
 System software (compilers and runtimes) | Task partitioning for heterogeneous platforms, instruction replacement, (un)likely attributes
 Processor architecture | ISA extensions, asymmetric multiprocessors, interrupt priority levels, cache partitioning
 Hardware microarchitecture (processing) | Diverse microarchitectural templates, execution units, and pipeline stages
-Hardware microarchitecture (communication) | Heterogeneous networks, QoS traffic classes
+Hardware microarchitecture (communication) | Topology variability, heterogeneous networks, QoS traffic classes
 Hardware microarchitecture (memory) | Memory hierarchy, NUMA
 Digital circuitry | High performance and low power process technologies, variably optimized (e.g. for speed/leakage) standard cells, clock/data networks, FPGA hard macro blocks
 
