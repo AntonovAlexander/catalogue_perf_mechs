@@ -12,7 +12,7 @@ Systematization is based on observation that it is possible to formulate generic
 * stage of the system life cycle (both statically and dynamically),
 * degree of automation (manually, fully automatically, and everything in between).
 
-In general sense, these approaches provide potential directions for improving density, regularity of computations, their scaling, decongestion, and adapting them to given physical and/or platform capabilities and constraints. (Micro)Architectures are understood mostly as practical compositions of these approaches.
+In general sense, these approaches designate useful "computational effects" addressed by various optimization mechanisms. Also, they provide potential directions for generation of new mechanisms that improve density, regularity of computations, their scaling, decongestion, and adapt them to given physical and/or platform capabilities and constraints. (Micro)Architectures are understood mostly as practical compositions of these mechanisms.
 
 These approaches have been formulated as **Strategies of Computational Process Synthesis (SCPS)**. Preliminary version of the catalogue was published in previous works [1, 2].
 
@@ -114,7 +114,7 @@ System software (web middleware) | HTTP compression, web media compression
 System software (graphics) | Viewing frustum, levels of detail, polygon clipping, occlusion culling, texture compression, tiled rendering
 System software (DBMS) | Denormalization, recycling of intermediate results
 System software (OS, VMs, drivers) | Context switch minimization, zero-copy data transfers, file compression, memory balooning
-System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, structure packing, dead code elimination, common subexpression elimination, strength reduction, computation reuse, memoization, garbage collection, neural network pruning/quantization
+System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, structure packing, dead code elimination, common subexpression elimination, strength reduction, branch tables, computation reuse, memoization, garbage collection, neural network pruning/quantization
 Processor architecture | Compressed (with increased code density) ISA
 Hardware microarchitecture (processing) | Loop stream detection, dynamic instruction reuse, interrupt tail-chaining
 Hardware microarchitecture (communication) | Sparse NoC topologies, NoC traffic compression
