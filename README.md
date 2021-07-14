@@ -39,7 +39,7 @@ Examples of performance optimization mechanisms grouped in SCPS categories:
 
 Classic computer architecture levels | Relaxation (overlapping)
 ---------------------------- | ------------------------
-Generic | Asynchronous processing, ping-pong (double) buffering, data/task queuing
+Generic | Asynchronous processing, shadow/ping-pong/double buffering, data/task queuing
 System software (web middleware) | Asynchronous web services, event loop (non-blocking I/O)
 System software (graphics) | Pipelined rendering
 System software (DBMS) | Concurrency control protocols, data streams processing
@@ -110,7 +110,7 @@ Digital circuitry | Wide functional units, operation clustering (chaining) in HL
 Classic computer architecture levels | Compression (elimination)
 ---------------------------- | -------------------------
 Generic | Data compression, data indexing, data deduplication, object pooling
-System software (web middleware) | HTTP compression, web media compression
+System software (web middleware) | HTTP compression, web media compression, partial page update
 System software (graphics) | Viewing frustum, levels of detail, polygon clipping, occlusion culling, texture compression, tiled rendering
 System software (DBMS) | Denormalization, recycling of intermediate results
 System software (OS, VMs, drivers) | Context switch minimization, zero-copy data transfers, file compression, memory balooning
