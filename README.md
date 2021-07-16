@@ -44,8 +44,8 @@ System software (web middleware) | Asynchronous web services, event loop (non-bl
 System software (graphics) | Pipelined rendering
 System software (DBMS) | Concurrency control protocols, data streams processing
 System software (OS, VMs, drivers) | OS pipes, OS multitasking, spooling, asynchronous I/O
-System software (compilers and runtimes) | Software pipelining, asynchronous programming environments, lock-free data structures and programming
-Processor architecture | Delay slots, software-based pipeline hazard resolution, rotating register files, software register renaming, lock-free synchronization instructions
+System software (compilers and runtimes) | Software pipelining, software register renaming, lock-free data structures and programming, asynchronous programming environments
+Processor architecture | Delay slots, software-exposed pipeline hazard resolution, rotating register files, lock-free synchronization instructions
 Hardware microarchitecture (processing) | Pipelined processing of instructions
 Hardware microarchitecture (communication) | Packet switching, split transaction protocols, sliding window flow control, pipelined packet routing, wormhole switching/routing
 Hardware microarchitecture (memory) | Memory pipelining, hardware register renaming, non-blocking caches
@@ -74,7 +74,7 @@ System software (DBMS) | Prioritized resource scheduling, query reordering
 System software (OS, VMs, drivers) | Thread priority scheduling, I/O requests sorting
 System software (compilers and runtimes) | Lazy evaluation, code motion optimizations, loop tiling, loop interchange
 Processor architecture | Dataflow architectures, relaxed memory models
-Hardware microarchitecture (processing) | Out-of-order processing of instructions, scoreboarding/Tomasulo scheduling algorithm
+Hardware microarchitecture (processing) | Out-of-order execution of instructions, scoreboarding/Tomasulo scheduling algorithm
 Hardware microarchitecture (communication) | Out-of-order completion of transfers
 Hardware microarchitecture (memory) | Deferred store buffers
 Digital circuitry | Operations reordering in HLS, retiming in logic synthesis
@@ -114,7 +114,7 @@ System software (web middleware) | HTTP compression, web media compression, part
 System software (graphics) | Viewing frustum, levels of detail, polygon clipping, occlusion culling, texture compression, tiled rendering
 System software (DBMS) | Denormalization, recycling of intermediate results
 System software (OS, VMs, drivers) | Context switch minimization, zero-copy data transfers, file compression, memory balooning
-System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, structure packing, dead code elimination, common subexpression elimination, strength reduction, branch tables, computation reuse, memoization, garbage collection, neural network pruning/quantization
+System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, structure packing, dead code elimination, common subexpression elimination, strength reduction, branch tables, branch elimination, computation reuse, memoization, garbage collection, neural network pruning/quantization
 Processor architecture | Compressed (with increased code density) ISA
 Hardware microarchitecture (processing) | Loop stream detection, dynamic instruction reuse, interrupt tail-chaining
 Hardware microarchitecture (communication) | Sparse NoC topologies, NoC traffic compression
