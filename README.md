@@ -59,7 +59,7 @@ System software (graphics) | Space partitioning, mesh decomposition
 System software (DBMS) | Database partitioning, replication/sharding
 System software (OS, VMs, drivers) | OS multithreading
 System software (compilers and runtimes) | Parallel programming environments, work sharing/stealing, coroutines, static parallelization, loop fission
-Processor architecture | Multi/many-core architectures, simultaneous multithreading, offload engines, multi-channel DMA
+Processor architecture | Decoupled access/execute, multi/many-core architectures, simultaneous multithreading, asynchronous offload engines, multi-channel DMA
 Hardware microarchitecture (processing) | Superscalar processing of instructions
 Hardware microarchitecture (communication) | Parallel links, concurrent slaves arbitration, dense topologies, distributed NoC routing
 Hardware microarchitecture (memory) | Multiporting, multibank partitioning, coherent caches
