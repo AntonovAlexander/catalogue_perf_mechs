@@ -12,7 +12,7 @@ Systematization is based on observation that it is possible to formulate generic
 * stage of the system life cycle (both statically and dynamically),
 * degree of automation (manually, fully automatically, and everything in between).
 
-In general sense, these approaches designate useful "computational effects" addressed by various optimization mechanisms. Also, they provide potential directions for generation of new mechanisms that improve density, regularity of computations, their scaling, decongestion, and adapt them to given physical and/or platform capabilities and constraints. (Micro)Architectures are understood mostly as practical compositions of these mechanisms.
+These approaches designate useful "computational effects" addressed by various optimization mechanisms. Also, they provide potential directions for generation of new mechanisms that improve density, regularity of computations, facilitate their scalability, decongestion, and intensification. Knowledge of these generic approaches can assist in both making computational artifacts "implementation-friendly" in general and adapt them to specific physical and/or platform capabilities and constraints. (Micro)Architectures are understood mostly as practical compositions of these mechanisms.
 
 These approaches have been formulated as **Strategies of Computational Process Synthesis (SCPS)**. Preliminary version of the catalogue was published in previous works [1, 2].
 
@@ -20,7 +20,7 @@ These approaches have been formulated as **Strategies of Computational Process S
 
 SCPS formulations:
 
-* **relaxation** – decoupling, removing the interlocks between requests. Contains four subcategories:
+* **relaxation** – reduction of coupling/interlocks between requests. Contains four subcategories:
 	* **overlapping** – decoupling of initiation of new request processing with completion of previous requests;
 	* **distribution** – partitioning of workload in loosely dependent parts;
 	* **reordering** – relaxation of ordering constraints, forwarded/deferred execution;
