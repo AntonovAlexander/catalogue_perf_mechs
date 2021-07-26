@@ -118,7 +118,7 @@ System software (compilers and runtimes) | Constant folding/propagation, floatin
 Processor architecture | Compressed (with increased code density) ISA
 Hardware microarchitecture (processing) | Loop stream detection, dynamic instruction reuse, interrupt tail-chaining
 Hardware microarchitecture (communication) | Sparse NoC topologies, NoC traffic compression
-Hardware microarchitecture (memory) | Hardware data compression, caching exclusivity
+Hardware microarchitecture (memory) | Hardware data compression, caching exclusivity, write-back caching policy
 Digital circuitry | Bitwidth narrowing, register merging, logic minimization, dead/duplicated logic removal, redundant reset elimination, power/clock gating
 
 Classic computer architecture levels | Variation (diversification)
