@@ -104,7 +104,7 @@ System software (compilers and runtimes) | Instruction combining, loop unrolling
 Processor architecture | CPU clustering, SIMD, VLIW architectures, FMA instructions, interrupt coalescing
 Hardware microarchitecture (processing) | Instruction fusion
 Hardware microarchitecture (communication) | Enlarged packets (e.g. jumbo frames), burst transfers
-Hardware microarchitecture (memory) | Memory requests coalescing
+Hardware microarchitecture (memory) | Memory accesses coalescing, write combining
 Digital circuitry | Wide functional units, operation clustering (chaining) in HLS, high number input LUT in FPGAs
 
 Classic computer architecture levels | Compression (elimination)
@@ -113,7 +113,7 @@ Generic | Data compression, data indexing, data deduplication, object pooling
 System software (web middleware) | HTTP compression, web media compression, partial page update
 System software (graphics) | View frustum culling, levels of detail, polygon clipping, occlusion culling, texture compression, tiled rendering
 System software (DBMS) | Denormalization, recycling of intermediate results
-System software (OS, VMs, drivers) | Context switch minimization, zero-copy data transfers, memory balooning, file compression
+System software (OS, VMs, drivers) | Context switch minimization, zero-copy data transfers, memory balooning, page combining, file compression
 System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, structure packing, dead code elimination, common subexpression elimination, strength reduction, branch tables, branch elimination, computation reuse, memoization, garbage collection, neural network pruning/quantization
 Processor architecture | Compressed (with increased code density) ISA
 Hardware microarchitecture (processing) | Loop stream detection, dynamic instruction reuse, interrupt tail-chaining
