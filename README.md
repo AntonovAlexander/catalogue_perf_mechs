@@ -113,7 +113,7 @@ Generic | Data compression, data indexing, data deduplication, object pooling
 System software (web middleware) | HTTP compression, web media compression, partial page update
 System software (graphics) | View frustum culling, levels of detail, polygon clipping, occlusion culling, texture compression, tiled rendering
 System software (DBMS) | Denormalization, recycling of intermediate results
-System software (OS, VMs, drivers) | Context switch minimization, zero-copy data transfers, memory balooning, page combining, file compression
+System software (OS, VMs, drivers) | Context switch minimization, zero-copy data transfers, memory balooning, memory overlays, page combining, file compression
 System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, structure packing, dead code elimination, common subexpression elimination, strength reduction, branch tables, branch elimination, computation reuse, memoization, garbage collection, neural network pruning/quantization
 Processor architecture | Compressed (with increased code density) ISA
 Hardware microarchitecture (processing) | Loop stream detection, dynamic instruction reuse, interrupt tail-chaining
