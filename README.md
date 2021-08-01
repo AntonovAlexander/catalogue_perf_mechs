@@ -33,7 +33,7 @@ SCPS formulations:
 * **variation** – introduction and handling variability of workload elements. Contains three subcategories:
 	* **diversification** – sorting workload elements in categories based on various properties (spatial, parametric, functional) that affect their execution;
 	* **reconfiguration** – introduction of changeability of system parameters and internal mechanisms, allocation of common “hard” substrate for diverse “soft” workload elements;
-	* **virtualization** – allocation of new management overlays that selectively abstract chosen mechanisms for their interoperable application.
+	* **virtualization** – allocation of new management overlays that selectively abstract chosen mechanisms for their interoperable application in various scenarios.
 
 Examples of performance optimization mechanisms grouped in SCPS categories:
 
@@ -152,7 +152,7 @@ Digital circuitry | FPGA LUTs, DVFS, reconfigurable macro blocks, back-annotated
 Classic computer architecture levels | Variation (virtualization)
 ---------------------------- | --------------------------
 Generic | Multi-layer system architecture
-System software (web middleware) | OSI multi-layer model, WebAssembly, cloud services
+System software (web middleware) | OSI multi-layer model, language embedding in HTML, WebAssembly, cloud services
 System software (graphics) | Standardized graphics APIs, unified shader model
 System software (DBMS) | Database virtualization, common query languages
 System software (OS, VMs, drivers) | OS containers, platform emulation
