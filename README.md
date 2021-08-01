@@ -54,7 +54,7 @@ Digital circuitry | Synchronous pipelines, wave pipelines
 Classic computer architecture levels | Relaxation (distribution)
 ---------------------------- | -------------------------
 Generic | Data partitioning, subtasks allocation
-System software (web middleware) | Multi-server setups, content delivery networks, MapReduce model, parallel HTTP requests, HTTP chunking, segmented file transfer
+System software (web middleware) | Parallel HTTP requests, HTTP chunking, code splitting, segmented file transfer, multi-server setups, MapReduce model, content delivery networks
 System software (graphics) | Space partitioning, mesh decomposition
 System software (DBMS) | Database partitioning, replication/sharding
 System software (OS, VMs, drivers) | OS multithreading
