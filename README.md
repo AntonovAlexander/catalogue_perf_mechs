@@ -109,7 +109,7 @@ Digital circuitry | Wide functional units, operation clustering (chaining) in HL
 
 Classic computer architecture levels | Compression (elimination)
 ---------------------------- | -------------------------
-Generic | Data compression, data indexing, data deduplication, object pooling
+Generic | Data compression, data indexing, data deduplication, object pooling, source code minification
 System software (web middleware) | HTTP compression, web media compression, tree shaking, partial page update
 System software (graphics) | View frustum culling, levels of detail, polygon clipping, occlusion culling, texture compression, tiled rendering
 System software (DBMS) | Denormalization, recycling of intermediate results
