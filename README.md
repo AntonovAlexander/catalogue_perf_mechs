@@ -62,7 +62,7 @@ System software (compilers and runtimes) | Parallel programming environments, wo
 Processor architecture | Decoupled access/execute, multi/many-core architectures, simultaneous multithreading, asynchronous offload engines, multi-channel DMA
 Hardware microarchitecture (processing) | Superscalar processing of instructions
 Hardware microarchitecture (communication) | Parallel links, concurrent slaves arbitration, dense topologies, distributed NoC routing
-Hardware microarchitecture (memory) | Multiporting, multibank partitioning, coherent caches
+Hardware microarchitecture (memory) | Multiporting, multibank partitioning, multi-way set-associative caches, coherent caches
 Digital circuitry | Application mapping on multiple hardware resources in HLS, logic replication
 
 Classic computer architecture levels | Relaxation (reordering)
@@ -118,7 +118,7 @@ System software (compilers and runtimes) | Constant folding/propagation, floatin
 Processor architecture | Compressed (with increased code density) ISA
 Hardware microarchitecture (processing) | Loop stream detection, dynamic instruction reuse, interrupt tail-chaining
 Hardware microarchitecture (communication) | Sparse NoC topologies, NoC traffic compression
-Hardware microarchitecture (memory) | Hardware data compression, caching exclusivity, write-back caching policy
+Hardware microarchitecture (memory) | Hardware data compression, reducing processor-memory traffic using caches, caching exclusivity, write-back caching policy
 Digital circuitry | Bitwidth narrowing, register merging, logic minimization, dead/duplicated logic removal, redundant reset elimination, power/clock gating
 
 Classic computer architecture levels | Variation (diversification)
