@@ -30,8 +30,8 @@ SCPS formulations:
 	* **coalescing** – increasing granularity of workload elements to decrease management overhead;
 	* **elimination** – detection and removal of redundant computations;
 
-* **variation** – introduction and handling variability of workload elements. Contains three subcategories:
-	* **diversification** – sorting workload elements in categories based on various properties (spatial, parametric, functional) that affect their execution;
+* **variation** – handling variability of workload elements. Contains three subcategories:
+	* **resorting** – re-grouping workload elements in generic or dedicated categories based on various properties (spatial, parametric, functional) that affect their execution;
 	* **reconfiguration** – introduction of changeability of system parameters and internal mechanisms, allocation of common “hard” substrate for diverse “soft” workload elements;
 	* **virtualization** – allocation of new management overlays that selectively abstract chosen mechanisms for their interoperable application in various scenarios.
 
