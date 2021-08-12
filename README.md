@@ -121,7 +121,7 @@ Hardware microarchitecture (communication) | Sparse NoC topologies, NoC traffic 
 Hardware microarchitecture (memory) | Hardware data compression, reducing processor-memory traffic using caches, caching exclusivity, write-back caching policy
 Digital circuitry | Bitwidth narrowing, register merging, logic minimization, dead/duplicated logic removal, redundant reset elimination, power/clock gating
 
-Classic computer architecture levels | Variation (diversification)
+Classic computer architecture levels | Variation (resorting)
 ---------------------------- | ---------------------------
 Generic | Diversity of traffic types, algorithms, and data structures
 System software (web middleware) | Internet media types
