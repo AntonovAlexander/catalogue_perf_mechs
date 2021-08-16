@@ -40,9 +40,9 @@ Examples of performance optimization mechanisms grouped in SCPS categories:
 Classic computer architecture levels | Relaxation (overlapping)
 ---------------------------- | ------------------------
 Generic | Asynchronous processing, shadow/ping-pong/double buffering, data/task queuing
-System software (web middleware) | Asynchronous web services, event loop (non-blocking I/O)
-System software (graphics) | Pipelined rendering
-System software (DBMS) | Concurrency control protocols, data streams processing
+Web | Asynchronous web services, event loop (non-blocking I/O)
+Graphics | Pipelined rendering
+DBMS | Concurrency control protocols, data streams processing
 System software (OS, VMs, drivers) | OS pipes, OS multitasking, spooling, asynchronous I/O
 System software (compilers and runtimes) | Software pipelining, software register renaming, lock-free data structures and programming, asynchronous programming environments
 Processor architecture | Delay slots, software-exposed pipeline hazard resolution, rotating register files, lock-free synchronization instructions
@@ -54,9 +54,9 @@ Digital circuitry | Synchronous pipelines, wave pipelines
 Classic computer architecture levels | Relaxation (distribution)
 ---------------------------- | -------------------------
 Generic | Data partitioning, subtasks allocation
-System software (web middleware) | Parallel HTTP requests, HTTP chunking, code splitting, segmented file transfer, multi-server setups, MapReduce model, content delivery networks
-System software (graphics) | Space partitioning, mesh decomposition
-System software (DBMS) | Database partitioning, replication/sharding
+Web | Parallel HTTP requests, HTTP chunking, code splitting, segmented file transfer, multi-server setups, MapReduce model, content delivery networks
+Graphics | Space partitioning, mesh decomposition
+DBMS | Database partitioning, replication/sharding
 System software (OS, VMs, drivers) | OS multithreading
 System software (compilers and runtimes) | Parallel programming environments, work sharing/stealing, coroutines, static parallelization, loop fission
 Processor architecture | Decoupled access/execute, multi/many-core architectures, simultaneous multithreading, asynchronous offload engines, multi-channel DMA
@@ -68,9 +68,9 @@ Digital circuitry | Application mapping on multiple hardware resources in HLS, l
 Classic computer architecture levels | Relaxation (reordering)
 ---------------------------- | -----------------------
 Generic | Lazy object initialization
-System software (web middleware) | Lazy connections/loading
-System software (graphics) | Mesh vertices reordering, out-of-order rasterization, forwarded/deferred rendering
-System software (DBMS) | Prioritized resource scheduling, query reordering
+Web | Lazy connections/loading
+Graphics | Mesh vertices reordering, out-of-order rasterization, forwarded/deferred rendering
+DBMS | Prioritized resource scheduling, query reordering
 System software (OS, VMs, drivers) | Thread priority scheduling, I/O requests sorting
 System software (compilers and runtimes) | Lazy evaluation, code motion optimizations, frequent branch prioritization, loop tiling, loop interchange
 Processor architecture | Dataflow architectures, relaxed memory models
@@ -82,9 +82,9 @@ Digital circuitry | Operations reordering in HLS, retiming in logic synthesis
 Classic computer architecture levels | Relaxation (speculation)
 ---------------------------- | ------------------------
 Generic | Data caching and prediction, speculative resource allocation
-System software (web middleware) | Link prefetching, preloading, prebrowsing, web/network caching
-System software (graphics) | Texture caching
-System software (DBMS) | Speculative query execution
+Web | Link prefetching, preloading, prebrowsing, web/network caching
+Graphics | Texture caching
+DBMS | Speculative query execution
 System software (OS, VMs, drivers) | Storage data prefetching
 System software (compilers and runtimes) | Thread-level speculation, software transactional memory, speculative predicates
 Processor architecture | Hardware transactional memory
@@ -96,9 +96,9 @@ Digital circuitry | Multiplexing multiple pre-computed results
 Classic computer architecture levels | Compression (coalescing)
 ---------------------------- | ------------------------
 Generic | Data/task bundling, data buffering
-System software (web middleware) | Web resource bundling, HTTP requests merging, media content buffering
-System software (graphics) | GPU thread coarsening, sparse textures
-System software (DBMS) | Data clustering
+Web | Web resource bundling, HTTP requests merging, media content buffering
+Graphics | GPU thread coarsening, sparse textures
+DBMS | Data clustering
 System software (OS, VMs, drivers) | Increased OS scheduling time quantum, I/O requests coalescing, batch processing, slab allocation, scatter/gather I/O, file defragmentation, file archiving, VM proximity placement groups
 System software (compilers and runtimes) | Instruction combining, loop unrolling, loop fusion, heap defragmentation
 Processor architecture | CPU clustering, SIMD, VLIW architectures, FMA instructions, interrupt coalescing
@@ -110,9 +110,9 @@ Digital circuitry | Wide functional units, operation clustering (chaining) in HL
 Classic computer architecture levels | Compression (elimination)
 ---------------------------- | -------------------------
 Generic | Data compression, data indexing, data deduplication, object pooling, source code minification
-System software (web middleware) | HTTP compression, web media compression, tree shaking, partial page update
-System software (graphics) | View frustum culling, levels of detail, polygon clipping, occlusion culling, texture compression, tiled rendering
-System software (DBMS) | Denormalization, recycling of intermediate results
+Web | HTTP compression, web media compression, tree shaking, partial page update
+Graphics | View frustum culling, levels of detail, polygon clipping, occlusion culling, texture compression, tiled rendering
+DBMS | Denormalization, recycling of intermediate results
 System software (OS, VMs, drivers) | Context switch minimization, zero-copy data transfers, memory balooning, memory overlays, page combining, file compression
 System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, structure packing, dead code elimination, common subexpression elimination, strength reduction, branch tables, branch elimination, computation reuse, memoization, garbage collection, neural network pruning/quantization
 Processor architecture | Compressed (with increased code density) ISA
@@ -124,9 +124,9 @@ Digital circuitry | Bitwidth narrowing, register merging, logic minimization, de
 Classic computer architecture levels | Variation (resorting)
 ---------------------------- | ---------------------------
 Generic | Diversity of traffic types, algorithms, and data structures
-System software (web middleware) | Internet media types
-System software (graphics) | Shader types, variable rate shading
-System software (DBMS) | Query prioritization
+Web | Internet media types
+Graphics | Shader types, variable rate shading
+DBMS | Query prioritization
 System software (OS, VMs, drivers) | Asymmetric multiprocessing environments, priority classes, privilege levels
 System software (compilers and runtimes) | Task partitioning for heterogeneous platforms, instruction replacement, (un)likely attributes
 Processor architecture | ISA extensions, asymmetric multiprocessors, interrupt priority levels, cache partitioning
@@ -138,9 +138,9 @@ Digital circuitry | High performance and low power process technologies, variabl
 Classic computer architecture levels | Variation (reconfiguration)
 ---------------------------- | ---------------------------
 Generic | Platform programmability/reconfigurability
-System software (web middleware) | Microservices continuous delivery
-System software (graphics) | Shader programmability
-System software (DBMS) | Performance tuning options
+Web | Microservices continuous delivery
+Graphics | Shader programmability
+DBMS | Performance tuning options
 System software (OS, VMs, drivers) | Microkernel architecture, process priorities reconfiguration
 System software (compilers and runtimes) | Neural network learning, compiler optimization flags
 Processor architecture | Processors’ programmability, switchable ISAs, modes of execution, customizable memory models
@@ -152,9 +152,9 @@ Digital circuitry | FPGA LUTs, DVFS, reconfigurable macro blocks, back-annotated
 Classic computer architecture levels | Variation (virtualization)
 ---------------------------- | --------------------------
 Generic | Multi-layer system architecture
-System software (web middleware) | OSI multi-layer model, language embedding in HTML, WebAssembly, cloud services
-System software (graphics) | Standardized graphics APIs, unified shader model
-System software (DBMS) | Database virtualization, common query languages
+Web | OSI multi-layer model, language embedding in HTML, WebAssembly, cloud services
+Graphics | Standardized graphics APIs, unified shader model
+DBMS | Database virtualization, common query languages
 System software (OS, VMs, drivers) | OS containers, platform emulation
 System software (compilers and runtimes) | Managed programming environments, multi-stage compilation
 Processor architecture | CPU ISA/microarchitecture separation, hardware CPU virtualization, FPGA temporal partitioning, virtual forwarding/routing, virtual memory
