@@ -133,7 +133,7 @@ Processor architecture | ISA extensions, cache partitioning, interrupt priority 
 Hardware microarchitecture (processing) | Allocation/mapping on diverse pipeline stages, execution units, and microarchitectural templates
 Hardware microarchitecture (communication) | Topology variability, heterogeneous networks, QoS traffic classes
 Hardware microarchitecture (memory) | Memory hierarchy, NUMA
-Digital circuitry | High performance and low power process technologies, variably optimized (e.g. for speed/leakage) standard cells, clock/data networks, Generic LUTs and hard macro blocks in FPGA, voltage-frequency island partitioning
+Digital circuitry | High performance and low power process technologies, variably optimized (e.g. for speed/leakage) standard cells, clock/data networks, generic LUTs and hard macro blocks in FPGA, voltage-frequency island partitioning
 
 Classic computer architecture levels | Variation (reconfiguration)
 ---------------------------- | ---------------------------
@@ -147,7 +147,7 @@ Processor architecture | Processors’ programmability, switchable ISAs, modes o
 Hardware microarchitecture (processing) | Microprogrammable processors, CGRAs, conservation cores, branch predictor adaptation
 Hardware microarchitecture (communication) | Reconfigurable QoS, reconfigurable NoC topologies, software-defined networking
 Hardware microarchitecture (memory) | Cache mapping adaptation
-Digital circuitry | FPGA LUTs, DVFS, reconfigurable macro blocks, back-annotated synthesis, synthesis/implementation constraints
+Digital circuitry | FPGA LUT programmability, DVFS, reconfigurable macro blocks, back-annotated synthesis, synthesis/implementation constraints
 
 Classic computer architecture levels | Variation (virtualization)
 ---------------------------- | --------------------------
