@@ -123,14 +123,14 @@ Digital circuitry | Bitwidth narrowing, register merging, logic minimization, de
 
 Classic computer architecture levels | Variation (resorting)
 ---------------------------- | ---------------------------
-Generic | Diversity of traffic types, algorithms, and data structures
+Generic | Allocation/mapping on traffic types, diverse algorithms and data structures
 Web | Internet media types
 Graphics | Shader types, variable rate shading
 DBMS | Query prioritization
-System software (OS, VMs, drivers) | Asymmetric multiprocessing environments, priority classes, privilege levels
-System software (compilers and runtimes) | Task partitioning for heterogeneous platforms, instruction replacement, (un)likely attributes
-Processor architecture | ISA extensions, asymmetric multiprocessors, interrupt priority levels, cache partitioning
-Hardware microarchitecture (processing) | Diverse microarchitectural templates, execution units, and pipeline stages
+System software (OS, VMs, drivers) | Priority classes, QoS scheduling, asymmetric multiprocessing environments
+System software (compilers and runtimes) | Instruction replacement, (un)likely attributes, task partitioning for heterogeneous platforms
+Processor architecture | ISA extensions, cache partitioning, interrupt priority levels, general-purpose/domain specific processors, asymmetric multiprocessors
+Hardware microarchitecture (processing) | Allocation/mapping on diverse pipeline stages, execution units, and microarchitectural templates
 Hardware microarchitecture (communication) | Topology variability, heterogeneous networks, QoS traffic classes
 Hardware microarchitecture (memory) | Memory hierarchy, NUMA
 Digital circuitry | High performance and low power process technologies, variably optimized (e.g. for speed/leakage) standard cells, clock/data networks, FPGA hard macro blocks
