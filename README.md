@@ -161,7 +161,7 @@ Processor architecture | CPU ISA/microarchitecture separation, hardware CPU virt
 Hardware microarchitecture (processing) | Dynamic binary translation, composed multicores, dynamic synthesis of thread accelerators ("thread warping")
 Hardware microarchitecture (communication) | Virtual channels, multi-layer protocols, link auto-training, cognitive radio
 Hardware microarchitecture (memory) | Hardware cache hierarchy management
-Digital circuitry | Logic simulation, programmable logic
+Digital circuitry | Logic simulation, programmable logic, hardware emulation
 
 ### Publications
 
