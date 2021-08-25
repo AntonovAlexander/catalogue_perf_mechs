@@ -60,7 +60,7 @@ DBMS | Database partitioning, replication/sharding
 System software (OS, VMs, drivers) | OS multithreading
 System software (compilers and runtimes) | Parallel programming environments, work sharing/stealing, coroutines, static parallelization, loop fission
 Processor architecture | Decoupled access/execute, multi/many-core architectures, simultaneous multithreading, asynchronous offload engines, multi-channel DMA
-Hardware microarchitecture (processing) | Superscalar processing of instructions
+Hardware microarchitecture (processing) | Vector lanes, superscalar processing of instructions
 Hardware microarchitecture (communication) | Parallel links, concurrent slaves arbitration, dense topologies, distributed NoC routing
 Hardware microarchitecture (memory) | Multiporting, multibank partitioning, multi-way set-associative caches, coherent caches
 Digital circuitry | Application mapping on multiple hardware resources in HLS, logic replication
