@@ -111,7 +111,7 @@ Classic computer architecture levels | Compression (elimination)
 ---------------------------- | -------------------------
 Generic | Data compression, data indexing, data deduplication, object pooling, source code minification
 Web | HTTP compression, web media compression, tree shaking, partial page update
-Graphics | View frustum culling, levels of detail, polygon clipping, occlusion culling, texture compression, tiled rendering
+Graphics | Partial redraw, texture compression, tiled rendering, view frustum culling, levels of detail, polygon clipping, occlusion culling
 DBMS | Denormalization, recycling of intermediate results
 System software (OS, VMs, drivers) | Context switch minimization, zero-copy data transfers, memory balooning, memory overlays, page combining, file compression
 System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, structure packing, dead code elimination, common subexpression elimination, strength reduction, branch tables, branch elimination, loop splitting, computation reuse, memoization, precompiled headers, deforestation, garbage collection, neural network pruning/quantization
@@ -119,7 +119,7 @@ Processor architecture | Compressed (with increased code density) ISA
 Hardware microarchitecture (processing) | Loop stream detection, dynamic instruction reuse, interrupt tail-chaining
 Hardware microarchitecture (communication) | Sparse NoC topologies, NoC traffic compression
 Hardware microarchitecture (memory) | Hardware data compression, reducing processor-memory traffic using caches, caching exclusivity, write-back caching policy
-Digital circuitry | Bitwidth narrowing, register merging, logic minimization, dead/duplicated logic removal, redundant reset elimination, power/clock gating
+Digital circuitry | Power/clock gating, redundant reset elimination, bitwidth narrowing, register merging, dead/duplicated logic removal, logic minimization, partial FPGA reconfiguration
 
 Classic computer architecture levels | Variation (resorting)
 ---------------------------- | ---------------------------
