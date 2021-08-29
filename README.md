@@ -8,7 +8,7 @@ Systematization is based on observation that it is possible to formulate generic
 * HW/SW implementation (hardware- or software-only, mixed manner),
 * nature of management engine (processor microarchitecture, OS kernel, software compiler, hardware synthesizer/generator, etc.),
 * type of computational traffic elements (processing, communicational, memory operations),
-* data being processed (data bytes, network packets, graphic assets, etc.),
+* processed data (data bytes, network packets, graphic assets, etc.),
 * stage of the system life cycle (both statically and dynamically),
 * degree of automation (manually, fully automatically, and everything in between).
 
@@ -63,7 +63,7 @@ Processor architecture | Decoupled access/execute, multi/many-core architectures
 Hardware microarchitecture (processing) | Vector lanes, superscalar processing of instructions
 Hardware microarchitecture (communication) | Parallel links, concurrent slaves arbitration, dense topologies, distributed NoC routing
 Hardware microarchitecture (memory) | Multiporting, multibank partitioning, multi-way set-associative caches, coherent caches
-Digital circuitry | Application mapping on multiple hardware resources in HLS, logic replication
+Digital circuitry | Asynchronous clock domains, logic replication, application mapping on multiple hardware resources in HLS
 
 Classic computer architecture levels | Relaxation (reordering)
 ---------------------------- | -----------------------
@@ -123,7 +123,7 @@ Digital circuitry | Power/clock gating, redundant reset elimination, bitwidth na
 
 Classic computer architecture levels | Variation (resorting)
 ---------------------------- | ---------------------------
-Generic | Allocation/mapping on traffic types, diverse algorithms and data structures
+Generic | Allocation/mapping on diverse traffic types, algorithms, and data structures
 Web | Internet media types
 Graphics | Shader types, variable rate shading
 DBMS | Query prioritization
@@ -145,7 +145,7 @@ System software (OS, VMs, drivers) | Microkernel architecture, process prioritie
 System software (compilers and runtimes) | Neural network learning, compiler optimization flags
 Processor architecture | Processors’ programmability, switchable ISAs, modes of execution, customizable memory models
 Hardware microarchitecture (processing) | Microprogrammable processors, CGRAs, conservation cores, branch predictor adaptation
-Hardware microarchitecture (communication) | Reconfigurable QoS, reconfigurable NoC topologies, software-defined networking
+Hardware microarchitecture (communication) | Adaptive routing, reconfigurable QoS, reconfigurable NoC topology, software-defined networking
 Hardware microarchitecture (memory) | Cache mapping adaptation
 Digital circuitry | FPGA LUT programmability, DVFS, reconfigurable macro blocks, back-annotated synthesis, synthesis/implementation constraints
 
