@@ -12,7 +12,7 @@ Systematization is based on observation that it is possible to formulate generic
 * stage of the system life cycle (both statically and dynamically),
 * degree of automation (manually, fully automatically, and everything in between).
 
-These approaches designate useful "computational effects" addressed by various optimization mechanisms. Also, they provide potential directions for generation of new mechanisms that improve density, regularity of computations, facilitate their scalability, decongestion, and intensification. Knowledge of these generic approaches can assist in both making computational artifacts "implementation-friendly" in general and adapting them to specific physical and/or platform capabilities and constraints. (Micro)Architectures are understood mostly as practical compositions of these mechanisms.
+These approaches designate useful "computational effects" addressed by various optimization mechanisms. Also, they provide potential directions for generation of new mechanisms that improve density, regularity, scalability of computations, disposal of locks, congestions and other inefficiencies. Knowledge of these generic approaches can assist in both making computational artifacts "implementation-friendly" in general and adapting them to specific physical and/or platform capabilities and constraints. (Micro)Architectures are understood mostly as practical compositions of these mechanisms.
 
 These approaches have been formulated as **Strategies of Computational Process Synthesis (SCPS)**. Preliminary version of the catalogue was published in previous works [1, 2].
 
@@ -44,8 +44,8 @@ Web | Asynchronous web services, event loop (non-blocking I/O)
 Graphics | Pipelined rendering
 DBMS | Concurrency control protocols, data streams processing
 System software (OS, VMs, drivers) | OS pipes, OS multitasking, spooling, asynchronous I/O
-System software (compilers and runtimes) | Software pipelining, software register renaming, lock-free data structures and programming, asynchronous programming environments
-Processor architecture | Software data hazard resolution, stall reduction, rotating register files, delay slots, lock-free synchronization instructions
+System software (compilers and runtimes) | Software pipelining, software register renaming, stall reduction, lock-free data structures and programming, asynchronous programming environments
+Processor architecture | Software data hazard resolution, rotating register files, delay slots, lock-free synchronization instructions
 Hardware microarchitecture (processing) | Pipelined processing of instructions
 Hardware microarchitecture (communication) | Packet switching, split transaction protocols, sliding window flow control, pipelined packet routing, wormhole switching/routing
 Hardware microarchitecture (memory) | Memory pipelining, hardware register renaming, non-blocking caches
