@@ -41,13 +41,13 @@ Classic computer architecture levels | Relaxation (overlapping)
 ---------------------------- | ------------------------
 Generic | Asynchronous processing, shadow/ping-pong/double buffering, data/task queuing
 Web | Asynchronous web services, event loop (non-blocking I/O)
-Graphics | Pipelined rendering
+Graphics | Rendering pipeline
 DBMS | Concurrency control protocols, data streams processing
 System software (OS, VMs, drivers) | OS pipes, OS multitasking, spooling, asynchronous I/O
 System software (compilers and runtimes) | Software pipelining, software register renaming, stall reduction, lock-free data structures and programming, asynchronous programming environments
 Processor architecture | Software data hazard resolution, rotating register files, delay slots, lock-free synchronization instructions
-Hardware microarchitecture (processing) | Pipelined processing of instructions
-Hardware microarchitecture (communication) | Packet switching, split transaction protocols, sliding window flow control, pipelined packet routing, wormhole switching/routing
+Hardware microarchitecture (processing) | Instruction pipelining
+Hardware microarchitecture (communication) | Packet switching, split transaction protocols, sliding window flow control, wormhole switching/routing
 Hardware microarchitecture (memory) | Memory pipelining, hardware register renaming, non-blocking caches
 Digital circuitry | Synchronous pipelines, wave pipelines
 
@@ -126,7 +126,7 @@ Classic computer architecture levels | Variation (resorting)
 Generic | Allocation/mapping on diverse traffic types, algorithms, and data structures
 Web | Internet media types
 Graphics | Shader types, variable rate shading
-DBMS | Query prioritization
+DBMS | Query prioritization, heterogeneous DBMSs
 System software (OS, VMs, drivers) | Priority classes, QoS scheduling, asymmetric multiprocessing environments
 System software (compilers and runtimes) | Instruction replacement, (un)likely attributes, task partitioning for heterogeneous platforms
 Processor architecture | ISA extensions, cache partitioning, interrupt priority levels, general-purpose/domain specific processors, asymmetric multiprocessors
@@ -147,7 +147,7 @@ Processor architecture | Processors’ programmability, switchable ISAs, modes o
 Hardware microarchitecture (processing) | Microprogrammable processors, CGRAs, conservation cores, branch predictor adaptation
 Hardware microarchitecture (communication) | Adaptive routing, reconfigurable QoS, reconfigurable NoC topology, software-defined networking
 Hardware microarchitecture (memory) | Cache mapping adaptation
-Digital circuitry | FPGA LUT programmability, DVFS, reconfigurable macro blocks, back-annotated synthesis, synthesis/implementation constraints
+Digital circuitry | FPGA reconfigurability, DVFS, reconfigurable macro blocks, back-annotated synthesis, synthesis/implementation constraints
 
 Classic computer architecture levels | Variation (virtualization)
 ---------------------------- | --------------------------
