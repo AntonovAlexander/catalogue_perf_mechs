@@ -88,7 +88,7 @@ DBMS | Speculative query execution
 System software (OS, VMs, drivers) | Storage data prefetching
 System software (compilers and runtimes) | (Un)likely attributes, software transactional memory, thread-level speculation
 Processor architecture | ISA branch prediction hints, hardware transactional memory
-Hardware microarchitecture (processing) | Computational caches, branch prediction/predication, return address stack, memory requests prediction, register/memory value prediction
+Hardware microarchitecture (processing) | Branch prediction, multipath execution, return address stack, memory requests prediction, register/memory value prediction, computational caches
 Hardware microarchitecture (communication) | Speculative propagation and stomping
 Hardware microarchitecture (memory) | Prefetching to data caches and stream buffers, locality in caching policies
 Digital circuitry | Multiplexing multiple pre-computed results
