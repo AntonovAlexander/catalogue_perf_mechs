@@ -63,7 +63,7 @@ Processor architecture | Decoupled access/execute, multi/many-core architectures
 Hardware microarchitecture (processing) | Vector lanes, superscalar processing of instructions
 Hardware microarchitecture (communication) | Parallel links, concurrent slaves arbitration, dense topologies, distributed NoC routing
 Hardware microarchitecture (memory) | Multiporting, multibank partitioning, multi-way set-associative caches, coherent caches
-Digital circuitry | Asynchronous clock domains, logic replication, application mapping on multiple hardware resources in HLS
+Digital circuitry | Asynchronous clock domains (GALS), logic replication, application mapping on multiple hardware resources in HLS
 
 Classic computer architecture levels | Relaxation (reordering)
 ---------------------------- | -----------------------
@@ -77,7 +77,7 @@ Processor architecture | Dataflow architectures, relaxed memory models
 Hardware microarchitecture (processing) | Out-of-order execution of instructions, scoreboarding/Tomasulo scheduling algorithm
 Hardware microarchitecture (communication) | Out-of-order completion of transfers
 Hardware microarchitecture (memory) | Deferred store buffers
-Digital circuitry | Operations reordering in HLS, retiming in logic synthesis
+Digital circuitry | Retiming in logic synthesis, operations reordering in HLS
 
 Classic computer architecture levels | Relaxation (speculation)
 ---------------------------- | ------------------------
@@ -86,8 +86,8 @@ Web | Link prefetching, preloading, prebrowsing, web/network caching
 Graphics | Texture caching
 DBMS | Speculative query execution
 System software (OS, VMs, drivers) | Storage data prefetching
-System software (compilers and runtimes) | Thread-level speculation, software transactional memory, speculative predicates
-Processor architecture | Hardware transactional memory
+System software (compilers and runtimes) | (Un)likely attributes, software transactional memory, thread-level speculation
+Processor architecture | ISA branch prediction hints, hardware transactional memory
 Hardware microarchitecture (processing) | Computational caches, branch prediction/predication, return address stack, memory requests prediction, register/memory value prediction
 Hardware microarchitecture (communication) | Speculative propagation and stomping
 Hardware microarchitecture (memory) | Prefetching to data caches and stream buffers, locality in caching policies
@@ -105,7 +105,7 @@ Processor architecture | CPU clustering, SIMD, VLIW architectures, FMA instructi
 Hardware microarchitecture (processing) | Instruction fusion
 Hardware microarchitecture (communication) | Enlarged packets (e.g. jumbo frames), burst transfers
 Hardware microarchitecture (memory) | Memory accesses coalescing, write combining
-Digital circuitry | Wide functional units, operation clustering (chaining) in HLS, high number input LUT in FPGAs
+Digital circuitry | Wide functional units, high number input LUT in FPGAs, operation clustering (chaining) in HLS
 
 Classic computer architecture levels | Compression (elimination)
 ---------------------------- | -------------------------
@@ -115,7 +115,7 @@ Graphics | Partial redraw, texture compression, tiled rendering, view frustum cu
 DBMS | Denormalization, recycling of intermediate results
 System software (OS, VMs, drivers) | Context switch minimization, zero-copy data transfers, memory balooning, memory overlays, page combining, file compression
 System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, structure packing, dead code elimination, common subexpression elimination, strength reduction, branch tables, branch elimination, loop splitting, computation reuse, memoization, precompiled headers, deforestation, garbage collection, neural network pruning/quantization
-Processor architecture | Compressed (with increased code density) ISA
+Processor architecture | Predicated instructions, compressed (with increased code density) ISA
 Hardware microarchitecture (processing) | Loop stream detection, dynamic instruction reuse, interrupt tail-chaining
 Hardware microarchitecture (communication) | Sparse NoC topologies, NoC traffic compression
 Hardware microarchitecture (memory) | Hardware data compression, reducing processor-memory traffic using caches, caching exclusivity, write-back caching policy
@@ -128,7 +128,7 @@ Web | Internet media types
 Graphics | Shader types, variable rate shading
 DBMS | Query prioritization, heterogeneous DBMSs
 System software (OS, VMs, drivers) | Priority classes, QoS scheduling, asymmetric multiprocessing environments
-System software (compilers and runtimes) | Instruction replacement, (un)likely attributes, task partitioning for heterogeneous platforms
+System software (compilers and runtimes) | Instruction replacement, task partitioning for heterogeneous platforms
 Processor architecture | ISA extensions, cache partitioning, interrupt priority levels, general-purpose/domain specific processors, asymmetric multiprocessors
 Hardware microarchitecture (processing) | Allocation/mapping on diverse pipeline stages, execution units, and microarchitectural templates
 Hardware microarchitecture (communication) | Topology variability, heterogeneous networks, QoS traffic classes
@@ -147,7 +147,7 @@ Processor architecture | Processors’ programmability, switchable ISAs, modes o
 Hardware microarchitecture (processing) | Microprogrammable processors, CGRAs, conservation cores, branch predictor adaptation
 Hardware microarchitecture (communication) | Adaptive routing, reconfigurable QoS, reconfigurable NoC topology, software-defined networking
 Hardware microarchitecture (memory) | Cache mapping adaptation
-Digital circuitry | FPGA reconfigurability, DVFS, reconfigurable macro blocks, back-annotated synthesis, synthesis/implementation constraints
+Digital circuitry | DVFS, FPGA reconfigurability, reconfigurable macro blocks, back-annotated synthesis, synthesis/implementation constraints
 
 Classic computer architecture levels | Variation (virtualization)
 ---------------------------- | --------------------------
