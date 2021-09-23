@@ -82,7 +82,7 @@ Digital circuitry | Retiming in logic synthesis, operations reordering in HLS
 Classic computer architecture levels | Relaxation (speculation)
 ---------------------------- | ------------------------
 Generic | Data caching and prediction, speculative resource allocation
-Web | Link prefetching, preloading, prebrowsing, web/network caching
+Web | Text auto-completion, link prefetching, preloading, prebrowsing, web/network caching
 Graphics | Texture caching
 DBMS | Speculative query execution
 System software (OS, VMs, drivers) | Storage data prefetching
@@ -114,7 +114,7 @@ Web | HTTP compression, web media compression, tree shaking, partial page update
 Graphics | Partial redraw, texture compression, tiled rendering, view frustum culling, levels of detail, polygon clipping, occlusion culling
 DBMS | Denormalization, recycling of intermediate results
 System software (OS, VMs, drivers) | Context switch minimization, zero-copy data transfers, memory balooning, memory overlays, page combining, file compression
-System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, structure packing, dead code elimination, common subexpression elimination, strength reduction, branch tables, branch elimination, loop splitting, computation reuse, memoization, precompiled headers, deforestation, garbage collection, neural network pruning/quantization
+System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, structure packing, dead code elimination, common subexpression elimination, strength reduction, branch tables, branch elimination, loop-invariant code motion, loop splitting, computation reuse, memoization, precompiled headers, deforestation, garbage collection, neural network pruning/quantization
 Processor architecture | Predicated instructions, compressed (with increased code density) ISA
 Hardware microarchitecture (processing) | Loop stream detection, dynamic instruction reuse, interrupt tail-chaining
 Hardware microarchitecture (communication) | Sparse NoC topologies, NoC traffic compression
