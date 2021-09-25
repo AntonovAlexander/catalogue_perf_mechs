@@ -58,7 +58,7 @@ Web | Parallel HTTP requests, HTTP chunking, code splitting, segmented file tran
 Graphics | Space partitioning, mesh decomposition
 DBMS | Database partitioning, replication/sharding
 System software (OS, VMs, drivers) | OS multithreading
-System software (compilers and runtimes) | Parallel programming environments, work sharing/stealing, coroutines, static parallelization, loop fission
+System software (compilers and runtimes) | Parallel programming environments, work sharing/stealing, coroutines, static parallelization, loop fission, free heap blocks splitting
 Processor architecture | Decoupled access/execute, multi/many-core architectures, simultaneous multithreading, asynchronous offload engines, multi-channel DMA
 Hardware microarchitecture (processing) | Vector lanes, superscalar processing of instructions
 Hardware microarchitecture (communication) | Parallel links, concurrent slaves arbitration, dense topologies, distributed NoC routing
@@ -81,8 +81,8 @@ Digital circuitry | Retiming in logic synthesis, operations reordering in HLS
 
 Classic computer architecture levels | Relaxation (speculation)
 ---------------------------- | ------------------------
-Generic | Data caching and prediction, speculative resource allocation
-Web | Text auto-completion, link prefetching, preloading, prebrowsing, web/network caching
+Generic | Data caching and prediction, speculative resource allocation, text auto-completion
+Web | Link prefetching, preloading, prebrowsing, web/network caching
 Graphics | Texture caching
 DBMS | Speculative query execution
 System software (OS, VMs, drivers) | Storage data prefetching
@@ -100,7 +100,7 @@ Web | Web resource bundling, HTTP requests merging, media content buffering
 Graphics | GPU thread coarsening, sparse textures
 DBMS | Data clustering
 System software (OS, VMs, drivers) | Increased OS scheduling time quantum, I/O requests coalescing, batch processing, slab allocation, scatter/gather I/O, file defragmentation, file archiving, VM proximity placement groups
-System software (compilers and runtimes) | Instruction combining, loop unrolling, loop fusion, heap defragmentation
+System software (compilers and runtimes) | Instruction combining, loop unrolling, loop fusion, free heap blocks coalescing
 Processor architecture | CPU clustering, SIMD, VLIW architectures, FMA instructions, interrupt coalescing
 Hardware microarchitecture (processing) | Instruction fusion
 Hardware microarchitecture (communication) | Enlarged packets (e.g. jumbo frames), burst transfers
@@ -114,7 +114,7 @@ Web | HTTP compression, web media compression, tree shaking, partial page update
 Graphics | Partial redraw, texture compression, tiled rendering, view frustum culling, levels of detail, polygon clipping, occlusion culling
 DBMS | Denormalization, recycling of intermediate results
 System software (OS, VMs, drivers) | Context switch minimization, zero-copy data transfers, memory balooning, memory overlays, page combining, file compression
-System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, structure packing, dead code elimination, common subexpression elimination, strength reduction, branch tables, branch elimination, loop-invariant code motion, loop splitting, computation reuse, memoization, precompiled headers, deforestation, garbage collection, neural network pruning/quantization
+System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, structure packing, dead code elimination, common subexpression elimination, strength reduction, branch tables, branch elimination, loop-invariant code motion, loop splitting, computation reuse, memoization, precompiled headers, deforestation, heap blocks reuse, garbage collection, neural network pruning/quantization
 Processor architecture | Predicated instructions, compressed (with increased code density) ISA
 Hardware microarchitecture (processing) | Loop stream detection, dynamic instruction reuse, interrupt tail-chaining
 Hardware microarchitecture (communication) | Sparse NoC topologies, NoC traffic compression
