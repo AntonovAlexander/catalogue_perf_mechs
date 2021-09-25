@@ -119,7 +119,7 @@ Processor architecture | Predicated instructions, compressed (with increased cod
 Hardware microarchitecture (processing) | Loop stream detection, dynamic instruction reuse, interrupt tail-chaining
 Hardware microarchitecture (communication) | Sparse NoC topologies, NoC traffic compression
 Hardware microarchitecture (memory) | Hardware data compression, reducing processor-memory traffic using caches, caching exclusivity, write-back caching policy
-Digital circuitry | Power/clock gating, redundant reset elimination, bitwidth narrowing, register merging, dead/duplicated logic removal, logic minimization, partial FPGA reconfiguration
+Digital circuitry | Power/clock gating, redundant reset elimination, bitwidth narrowing, register merging, dead/duplicated logic removal, logic minimization, partial FPGA reconfiguration, process uniqueness in simulation runnable queue
 
 Classic computer architecture levels | Variation (resorting)
 ---------------------------- | ---------------------------
