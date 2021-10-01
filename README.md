@@ -54,7 +54,7 @@ Digital circuitry | Synchronous pipelines, wave pipelines
 Classic computer architecture levels | Relaxation (distribution)
 ---------------------------- | -------------------------
 Generic | Data partitioning, subtasks allocation
-Web | Parallel HTTP requests, HTTP chunking, code splitting, segmented file transfer, multi-server setups, MapReduce model, content delivery networks
+Web | Parallel HTTP requests, HTTP chunking, code splitting, segmented file transfer, microservices decoupling, multi-server setups, MapReduce model, content delivery networks
 Graphics | Space partitioning, mesh decomposition
 DBMS | Database partitioning, replication/sharding
 System software (OS, VMs, drivers) | OS multithreading
@@ -82,7 +82,7 @@ Digital circuitry | Retiming in logic synthesis, operations reordering in HLS
 Classic computer architecture levels | Relaxation (speculation)
 ---------------------------- | ------------------------
 Generic | Data caching and prediction, speculative resource allocation, text auto-completion
-Web | Link prefetching, preloading, prebrowsing, web/network caching
+Web | Link prefetching, preloading, prebrowsing, web/network/HTTP caching
 Graphics | Texture caching
 DBMS | Speculative query execution
 System software (OS, VMs, drivers) | Storage data prefetching
@@ -133,7 +133,7 @@ Processor architecture | ISA extensions, cache partitioning, interrupt priority 
 Hardware microarchitecture (processing) | Allocation/mapping on diverse pipeline stages, execution units, and microarchitectural templates
 Hardware microarchitecture (communication) | Topology variability, heterogeneous networks, QoS traffic classes
 Hardware microarchitecture (memory) | Memory hierarchy, NUMA
-Digital circuitry | High performance and low power process technologies, variably optimized (e.g. for speed/leakage) standard cells, clock/data networks, generic LUTs and hard macro blocks in FPGA, voltage-frequency island partitioning, pipeline balancing
+Digital circuitry | High performance and low power process technologies, variably optimized (e.g. for speed/leakage) standard cells, clock/data networks, generic LUTs and hard macro blocks in FPGA, pipeline balancing, voltage-frequency island partitioning
 
 Classic computer architecture levels | Variation (reconfiguration)
 ---------------------------- | ---------------------------
@@ -157,7 +157,7 @@ Graphics | Standardized graphics APIs, unified shader model
 DBMS | Database virtualization, common query languages
 System software (OS, VMs, drivers) | OS containers, platform emulation
 System software (compilers and runtimes) | Managed programming environments, multi-stage compilation
-Processor architecture | CPU ISA/microarchitecture separation, hardware CPU virtualization, FPGA temporal partitioning, virtual forwarding/routing, virtual memory
+Processor architecture | CPU ISA/microarchitecture separation, virtual forwarding/routing, virtual memory, FPGA temporal partitioning, logical processors, hardware CPU virtualization
 Hardware microarchitecture (processing) | Dynamic binary translation, composed multicores, dynamic synthesis of thread accelerators ("thread warping")
 Hardware microarchitecture (communication) | Virtual channels, multi-layer protocols, link auto-training, cognitive radio
 Hardware microarchitecture (memory) | Hardware cache hierarchy management
