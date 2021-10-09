@@ -81,13 +81,13 @@ Digital circuitry | Retiming in logic synthesis, operations reordering in HLS
 
 Classic computer architecture levels | Relaxation (speculation)
 ---------------------------- | ------------------------
-Generic | Data caching and prediction, speculative resource allocation, text auto-completion
+Generic | Data caching and prediction, speculative resource allocation, optimistic concurrency control, text auto-completion
 Web | Link prefetching, preloading, prebrowsing, web/network/HTTP caching
 Graphics | Texture caching
 DBMS | Speculative query execution
 System software (OS, VMs, drivers) | Storage data prefetching
 System software (compilers and runtimes) | (Un)likely attributes, software transactional memory, thread-level speculation
-Processor architecture | ISA branch prediction hints, hardware transactional memory
+Processor architecture | ISA branch prediction hints, CAS instructions, hardware transactional memory
 Hardware microarchitecture (processing) | Branch prediction, multipath execution, return address stack, memory requests prediction, register/memory value prediction, computational caches
 Hardware microarchitecture (communication) | Speculative propagation and stomping
 Hardware microarchitecture (memory) | Prefetching to data caches and stream buffers, locality in caching policies
