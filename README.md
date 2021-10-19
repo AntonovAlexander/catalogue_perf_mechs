@@ -141,10 +141,10 @@ Generic | Platform programmability/reconfigurability
 Web | Microservices continuous delivery
 Graphics | Shader programmability
 DBMS | Performance tuning options
-System software (OS, VMs, drivers) | Microkernel architecture, process priorities reconfiguration
-System software (compilers and runtimes) | Neural network learning, compiler optimization flags
+System software (OS, VMs, drivers) | Process priorities reconfiguration, microkernel architecture, disk cache modes
+System software (compilers and runtimes) | Compiler optimization flags, neural network learning
 Processor architecture | Processors’ programmability, switchable ISAs, modes of execution, customizable memory models
-Hardware microarchitecture (processing) | Microprogrammable processors, CGRAs, conservation cores, branch predictor adaptation
+Hardware microarchitecture (processing) | Branch predictor adaptation, microprogrammable processors, CGRAs, conservation cores
 Hardware microarchitecture (communication) | Adaptive routing, reconfigurable QoS, reconfigurable NoC topology, software-defined networking
 Hardware microarchitecture (memory) | Cache mapping adaptation
 Digital circuitry | DVFS, FPGA reconfigurability, reconfigurable macro blocks, back-annotated synthesis, synthesis/implementation constraints
