@@ -63,7 +63,7 @@ Processor architecture | Decoupled access/execute, multi/many-core architectures
 Hardware microarchitecture (processing) | Vector lanes, superscalar processing of instructions
 Hardware microarchitecture (communication) | Parallel links, concurrent slaves arbitration, dense topologies, distributed NoC routing
 Hardware microarchitecture (memory) | Multiporting, multibank partitioning, multi-way set-associative caches, coherent caches
-Digital circuitry | Asynchronous clock domains (GALS), logic replication, application mapping on multiple hardware resources in HLS
+Digital circuitry | Parallel prefix addition, logic replication, application mapping on multiple hardware resources in HLS, asynchronous clock domains (GALS)
 
 Classic computer architecture levels | Relaxation (reordering)
 ---------------------------- | -----------------------
@@ -77,7 +77,7 @@ Processor architecture | Dataflow architectures, relaxed memory models
 Hardware microarchitecture (processing) | Out-of-order execution of instructions, scoreboarding/Tomasulo scheduling algorithm
 Hardware microarchitecture (communication) | Out-of-order completion of transfers
 Hardware microarchitecture (memory) | Deferred store buffers
-Digital circuitry | Retiming in logic synthesis, operations reordering in HLS
+Digital circuitry | Multiplier partial products rearranging, retiming in logic synthesis, operations reordering in HLS
 
 Classic computer architecture levels | Relaxation (speculation)
 ---------------------------- | ------------------------
