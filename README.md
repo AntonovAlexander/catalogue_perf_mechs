@@ -101,7 +101,7 @@ Graphics | GPU thread coarsening, sparse textures
 DBMS | Data clustering
 System software (OS, VMs, drivers) | Increased OS scheduling time quantum, I/O requests coalescing, batch processing, slab allocation, scatter/gather I/O, file defragmentation, file archiving, VM proximity placement groups
 System software (compilers and runtimes) | Instruction combining, loop unrolling, loop fusion, free heap blocks coalescing
-Processor architecture | CPU clustering, SIMD, VLIW architectures, FMA instructions, interrupt coalescing
+Processor architecture | FMA instructions, SIMD, VLIW architectures, interrupt coalescing, huge pages, CPU clustering
 Hardware microarchitecture (processing) | Instruction fusion
 Hardware microarchitecture (communication) | Enlarged packets (e.g. jumbo frames), burst transfers
 Hardware microarchitecture (memory) | Memory accesses coalescing, write combining
