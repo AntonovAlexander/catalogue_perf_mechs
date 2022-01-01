@@ -23,7 +23,7 @@ SCPS formulations:
 * **relaxation** – reduction of coupling/interlocks between requests. Contains four subcategories:
 	* **overlapping** – decoupling of initiation of new request processing with completion of previous requests;
 	* **distribution** – partitioning of workload in loosely dependent parts;
-	* **reordering** – relaxation of ordering constraints, forwarded/deferred execution;
+	* **reordering** – relaxation of ordering constraints, enabling forwarded/deferred execution;
 	* **speculation** – performing (possibly redundant) computations in advance in the interest of latency reduction;
 
 * **compression** – reduction of workload processing cost. Contains two subcategories:
@@ -109,9 +109,9 @@ Digital circuitry | Wide functional units, high number input LUT in FPGAs, opera
 
 Classic computer architecture levels | Compression (elimination)
 ---------------------------- | -------------------------
-Generic | Data compression, data reduction, data indexing, data deduplication, object pooling, source code minification
+Generic | Data compression, data reduction, data indexing, data deduplication, acceleration structures, object pooling, source code minification
 Web | HTTP compression, web media compression, tree shaking, partial page update
-Graphics | Partial redraw, texture compression, tiled rendering, view frustum culling, levels of detail, polygon clipping, occlusion culling
+Graphics | Partial redraw, texture compression, tiled rendering, view frustum culling, levels of detail, polygon clipping, occlusion culling, game world sectorization
 DBMS | Denormalization, recycling of intermediate results
 System software (OS, VMs, drivers) | Context switch minimization, zero-copy data transfers, memory balooning, memory overlays, page combining, file compression
 System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, structure packing, dead code elimination, common subexpression elimination, strength reduction, branchless programming (branch elimination), branch tables, loop-invariant code motion, loop splitting, computation reuse, memoization, precompiled headers, deforestation, heap blocks reuse, garbage collection, neural network pruning/quantization
