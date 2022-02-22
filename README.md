@@ -112,7 +112,7 @@ Classic computer architecture levels | Compression (elimination)
 Generic | Data compression, data reduction, data indexing, data deduplication, acceleration structures, object pooling, source code minification
 Web | HTTP compression, web media compression, tree shaking, partial page update
 Graphics | Partial redraw, texture compression, tiled rendering, view frustum culling, levels of detail, polygon clipping, occlusion culling, game world sectorization
-DBMS | Denormalization, recycling of intermediate results
+DBMS | (De)normalization, recycling of intermediate results
 System software (OS, VMs, drivers) | Context switch minimization, zero-copy data transfers, memory balooning, memory overlays, page combining, file compression
 System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, structure packing, dead code elimination, common subexpression elimination, strength reduction, branchless programming (branch elimination), branch tables, loop-invariant code motion, loop splitting, computation reuse, memoization, precompiled headers, deforestation, heap blocks reuse, garbage collection, neural network pruning/quantization
 Processor architecture | Predicated instructions, compressed (with increased code density) ISA
@@ -137,10 +137,10 @@ Digital circuitry | High performance and low power process technologies, variabl
 
 Classic computer architecture levels | Variation (reconfiguration)
 ---------------------------- | ---------------------------
-Generic | Platform programmability/reconfigurability
+Generic | Platform programmability/reconfigurability, performance tuning options
 Web | Microservices continuous delivery
 Graphics | Shader programmability
-DBMS | Performance tuning options
+DBMS | SQL performance tuning
 System software (OS, VMs, drivers) | Process priorities reconfiguration, microkernel architecture, disk cache modes
 System software (compilers and runtimes) | Compiler optimization flags, neural network learning
 Processor architecture | Processors’ programmability, switchable ISAs, modes of execution, customizable memory models
