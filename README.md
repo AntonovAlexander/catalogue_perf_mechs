@@ -22,7 +22,7 @@ SCPS formulations:
 
 * **relaxation** – reduction of coupling/interlocks between requests. Contains four subcategories:
 	* **overlapping** – decoupling of initiation of new request processing with completion of previous requests;
-	* **distribution** – partitioning of workload in loosely dependent parts;
+	* **distribution** – partitioning of workload in loosely dependent parts enabling concurrent execution;
 	* **reordering** – relaxation of ordering constraints, enabling forwarded/deferred execution;
 	* **speculation** – performing (possibly redundant) computations in advance in the interest of latency reduction;
 
@@ -32,8 +32,8 @@ SCPS formulations:
 
 * **variation** – handling variability of workload elements. Contains three subcategories:
 	* **resorting** – re-grouping workload elements in generic or dedicated categories based on various properties (spatial, parametric, functional) that affect their execution;
-	* **reconfiguration** – introduction of changeability of system parameters and internal mechanisms, allocation of common “hard” substrate for diverse “soft” workload elements;
-	* **virtualization** – allocation of new management overlays that selectively abstract chosen mechanisms for their interoperable application in various scenarios.
+	* **reconfiguration** – introduction of changeability of system parameters and internal mechanisms, allocation of generic “hard” substrate for diverse “soft” workload elements;
+	* **virtualization** – allocation of new management overlays that abstract selected mechanisms for their interoperable application in various scenarios.
 
 Examples of performance optimization mechanisms grouped in SCPS categories:
 
