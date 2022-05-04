@@ -123,7 +123,7 @@ Digital circuitry | Power/clock gating, redundant reset elimination, bitwidth na
 
 Classic computer architecture levels | Variation (resorting)
 ---------------------------- | ---------------------------
-Generic | Allocation/mapping on diverse traffic types, algorithms, and data structures
+Generic | Floating-point types, diverse data structures, traffic types, and algorithms
 Web | Internet media types
 Graphics | Shader types, variable rate shading
 DBMS | Query prioritization, heterogeneous DBMSs
