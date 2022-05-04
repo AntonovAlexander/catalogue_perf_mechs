@@ -33,7 +33,7 @@ SCPS formulations:
 * **variation** – handling variability of workload elements. Contains three subcategories:
 	* **resorting** – re-grouping workload elements in generic or dedicated categories based on various properties (spatial, parametric, functional) that affect their execution;
 	* **reconfiguration** – introduction of changeability of system parameters and internal mechanisms, allocation of generic “hard” substrate for diverse “soft” workload elements;
-	* **virtualization** – allocation of new management overlays that abstract selected mechanisms for their interoperable application in various scenarios.
+	* **virtualization** – allocation of new management overlays that decouple selected mechanisms for their interoperable application in various scenarios.
 
 Examples of performance optimization mechanisms grouped in SCPS categories:
 
@@ -83,11 +83,11 @@ Classic computer architecture levels | Relaxation (speculation)
 ---------------------------- | ------------------------
 Generic | Data caching and prediction, speculative resource allocation, optimistic concurrency control, text auto-completion
 Web | Link prefetching, preloading, prebrowsing, web/network/HTTP caching
-Graphics | Texture caching
+Graphics | Texture caching, shader caches (precompiled shaders)
 DBMS | Speculative query execution
 System software (OS, VMs, drivers) | Storage data prefetching
 System software (compilers and runtimes) | (Un)likely attributes, software transactional memory, thread-level speculation
-Processor architecture | ISA branch prediction hints, CAS instructions, hardware transactional memory
+Processor architecture | Branch prediction hints, cache hints, CAS instructions, hardware transactional memory instructions
 Hardware microarchitecture (processing) | Branch prediction, multipath execution, return address stack, memory requests prediction, register/memory value prediction, computational caches
 Hardware microarchitecture (communication) | Speculative propagation and stomping
 Hardware microarchitecture (memory) | Prefetching to data caches and stream buffers, locality in caching policies
