@@ -127,10 +127,10 @@ Generic | Floating-point types, diverse data structures, traffic types, and algo
 Web | Internet media types
 Graphics | Shader types, variable rate shading
 DBMS | Query prioritization, heterogeneous DBMSs
-System software (OS, VMs, drivers) | Priority classes, QoS scheduling, asymmetric multiprocessing environments
+System software (OS, VMs, drivers) | Priority classes, process/thread affinity, QoS scheduling, asymmetric multiprocessing environments
 System software (compilers and runtimes) | Instruction replacement, task partitioning for heterogeneous platforms
 Processor architecture | ISA extensions, cache partitioning, interrupt priority levels, general-purpose/domain specific processors, asymmetric multiprocessors
-Hardware microarchitecture (processing) | Allocation/mapping on diverse pipeline stages, execution units, and microarchitectural templates
+Hardware microarchitecture (processing) | Variably optimized (e.g. for performance/power) processor microarchitectures
 Hardware microarchitecture (communication) | Topology variability, heterogeneous networks, QoS traffic classes
 Hardware microarchitecture (memory) | Memory hierarchy, NUMA
 Digital circuitry | High performance and low power process technologies, variably optimized (e.g. for speed/leakage) standard cells, clock/data networks, generic LUTs and hard macro blocks in FPGA, pipeline balancing, voltage-frequency island partitioning
