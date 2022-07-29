@@ -63,12 +63,12 @@ Processor architecture | Decoupled access/execute, multi/many-core architectures
 Hardware microarchitecture (processing) | Vector lanes, superscalar processing of instructions
 Hardware microarchitecture (communication) | Parallel links, concurrent slaves arbitration, dense topologies, distributed NoC routing
 Hardware microarchitecture (memory) | Multiporting, multibank partitioning, multi-way set-associative caches, coherent caches
-Digital circuitry | Parallel prefix addition, logic replication, application mapping on multiple hardware resources in HLS, asynchronous clock domains (GALS)
+Digital circuitry | Asynchronous clock domains (GALS), logic replication, parallel prefix addition, application mapping on multiple hardware resources in HLS
 
 Classic computer architecture levels | Relaxation (reordering)
 ---------------------------- | -----------------------
 Generic | Lazy object initialization
-Web | Lazy connections/loading
+Web | Lazy connections/loading, eager/lazy JS parsing
 Graphics | Mesh vertices reordering, out-of-order rasterization, forwarded/deferred rendering
 DBMS | Prioritized resource scheduling, query reordering
 System software (OS, VMs, drivers) | Thread priority scheduling, I/O requests sorting
@@ -77,7 +77,7 @@ Processor architecture | Dataflow architectures, relaxed memory models
 Hardware microarchitecture (processing) | Out-of-order execution of instructions, scoreboarding/Tomasulo scheduling algorithm
 Hardware microarchitecture (communication) | Out-of-order completion of transfers
 Hardware microarchitecture (memory) | Deferred store buffers
-Digital circuitry | Multiplier partial products rearranging, retiming in logic synthesis, operations reordering in HLS
+Digital circuitry | Retiming, multiplier partial products rearranging, operations reordering in HLS
 
 Classic computer architecture levels | Relaxation (speculation)
 ---------------------------- | ------------------------
