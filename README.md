@@ -111,7 +111,7 @@ Classic computer architecture levels | Compression (elimination)
 ---------------------------- | -------------------------
 Generic | Data compression, data reduction, data indexing, data deduplication, acceleration structures, object pooling, source code minification
 Web | HTTP compression, web media compression, tree shaking, partial page update
-Graphics | Partial redraw, texture compression, tiled rendering, view frustum culling, levels of detail, polygon clipping, occlusion culling, game world sectorization
+Graphics | Partial redraw, texture compression, tiled rendering, view frustum culling, occlusion culling, polygon clipping, game world sectorization, levels of detail, decreased distant animation update rate
 DBMS | (De)normalization, recycling of intermediate results
 System software (OS, VMs, drivers) | Context switch minimization, zero-copy data transfers, memory balooning, memory overlays, page combining, file compression
 System software (compilers and runtimes) | Constant folding/propagation, floating- to fixed-point conversion, register recycling/reuse, register promotion, structure packing, dead code elimination, common subexpression elimination, strength reduction, branchless programming (branch elimination), branch tables, loop-invariant code motion, loop splitting, computation reuse, memoization, precompiled headers, deforestation, heap blocks reuse, garbage collection, neural network pruning/quantization
@@ -123,7 +123,7 @@ Digital circuitry | Power/clock gating, redundant reset elimination, bitwidth na
 
 Classic computer architecture levels | Variation (resorting)
 ---------------------------- | ---------------------------
-Generic | Floating-point types, diverse data structures, traffic types, and algorithms
+Generic | Diverse data structures, traffic types, and algorithms
 Web | Internet media types
 Graphics | Shader types, variable rate shading
 DBMS | Query prioritization, heterogeneous DBMSs
@@ -137,7 +137,7 @@ Digital circuitry | High performance and low power process technologies, variabl
 
 Classic computer architecture levels | Variation (reconfiguration)
 ---------------------------- | ---------------------------
-Generic | Platform programmability/reconfigurability, performance tuning options
+Generic | Platform programmability/reconfigurability, performance tuning options, floating-point types 
 Web | Microservices continuous delivery
 Graphics | Shader programmability
 DBMS | SQL performance tuning
