@@ -77,7 +77,7 @@ Processor architecture | Dataflow architectures, relaxed memory models
 Hardware microarchitecture (processing) | Out-of-order execution of instructions, scoreboarding/Tomasulo scheduling algorithm
 Hardware microarchitecture (communication) | Out-of-order completion of transfers
 Hardware microarchitecture (memory) | Deferred store buffers
-Digital circuitry | Retiming, multiplier partial products rearranging, operations reordering in HLS
+Digital circuitry | Retiming, permutable cell terminals interchange, multiplier partial products rearranging, operations reordering in HLS
 
 Classic computer architecture levels | Relaxation (speculation)
 ---------------------------- | ------------------------
@@ -88,10 +88,10 @@ DBMS | Speculative query execution
 System software (OS, VMs, drivers) | Storage data prefetching
 System software (compilers and runtimes) | (Un)likely attributes, software transactional memory, thread-level speculation
 Processor architecture | Branch prediction hints, cache hints, CAS instructions, hardware transactional memory instructions
-Hardware microarchitecture (processing) | Branch prediction, multipath execution, return address stack, memory requests prediction, register/memory value prediction, computational caches
+Hardware microarchitecture (processing) | Branch prediction heuristics, multipath execution, return address stack, memory requests prediction, register/memory value prediction, computational caches
 Hardware microarchitecture (communication) | NACK-able transmissions, speculative propagation and stomping
-Hardware microarchitecture (memory) | Prefetching to data caches and stream buffers, locality in caching policies
-Digital circuitry | Multiplexing multiple pre-computed results
+Hardware microarchitecture (memory) | Prefetching heristics, stream buffers, caching heuristics
+Digital circuitry | Multiplexing pre-computed data
 
 Classic computer architecture levels | Compression (coalescing)
 ---------------------------- | ------------------------
@@ -105,7 +105,7 @@ Processor architecture | FMA instructions, SIMD, VLIW architectures, interrupt c
 Hardware microarchitecture (processing) | Instruction fusion
 Hardware microarchitecture (communication) | Enlarged packets (e.g. jumbo frames), burst transfers
 Hardware microarchitecture (memory) | Memory accesses coalescing, write combining
-Digital circuitry | Wide functional units, high number input LUT in FPGAs, operation clustering (chaining) in HLS
+Digital circuitry | Wide functional units, large FPGA LUTs, operation clustering (chaining) in HLS
 
 Classic computer architecture levels | Compression (elimination)
 ---------------------------- | -------------------------
@@ -119,7 +119,7 @@ Processor architecture | Predicated instructions, compressed (with increased cod
 Hardware microarchitecture (processing) | Loop stream detection, dynamic instruction reuse, interrupt tail-chaining
 Hardware microarchitecture (communication) | Sparse NoC topologies, NoC traffic compression
 Hardware microarchitecture (memory) | Hardware data compression, reducing processor-memory traffic using caches, caching exclusivity, write-back caching policy
-Digital circuitry | Power/clock gating, redundant reset elimination, bitwidth narrowing, register merging, dead/duplicated logic removal, logic minimization, partial FPGA reconfiguration, process uniqueness in simulation runnable queue
+Digital circuitry | Power/clock gating, redundant reset elimination, bitwidth narrowing, register merging, dead/duplicated logic removal, logic minimization, partial FPGA reconfiguration, process uniqueness in discrete-event simulation runnable queue
 
 Classic computer architecture levels | Variation (resorting)
 ---------------------------- | ---------------------------
