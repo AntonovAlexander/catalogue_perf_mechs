@@ -77,7 +77,7 @@ Processor architecture | Dataflow architectures, relaxed memory models
 Hardware microarchitecture (processing) | Out-of-order execution of instructions, scoreboarding/Tomasulo scheduling algorithm
 Hardware microarchitecture (communication) | Out-of-order completion of transfers
 Hardware microarchitecture (memory) | Deferred store buffers
-Digital circuitry | Retiming, permutable cell terminals interchange, multiplier partial products rearranging, operations reordering in HLS
+Digital circuitry | Retiming, slack borrowing, time stealing, permutable cell terminals interchange, multiplier partial products rearranging, operations reordering in HLS
 
 Classic computer architecture levels | Relaxation (speculation)
 ---------------------------- | ------------------------
